@@ -22,13 +22,13 @@ const imgStyle ={
     width: '60vw',
     height: '80vh',
 }
-const leftStyle = {
-    width: '60vw',
-    height: '90vh',
-}
-  const sectionStyle = {
-    height: '60vh',
-  }
+// const leftStyle = {
+//     width: '60vw',
+//     height: '90vh',
+// }
+//   const sectionStyle = {
+//     height: '60vh',
+//   }
 
     return (
         

@@ -15,17 +15,17 @@ const pStyle ={
     fontWeight: '300',
     marginLeft: '1rem',
 }
-const imgStyle ={
+// const imgStyle ={
 
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-    width: '60vw',
-    height: '90vh',
-}
-const leftStyle = {
-    width: '60vw',
-    height: '90vh',
-}
+//     backgroundSize: 'contain',
+//     backgroundRepeat: 'no-repeat',
+//     width: '60vw',
+//     height: '90vh',
+// }
+// const leftStyle = {
+//     width: '60vw',
+//     height: '90vh',
+// }
   const buttStyle = {
     backgroundColor: '#E6BEAE',
     border: 'none',

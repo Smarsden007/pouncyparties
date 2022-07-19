@@ -15,17 +15,17 @@ export default function SectionTwo(props) {
         fontWeight: '300',
         marginRight: '1rem',
     }
-    const imgStyle = {
+    // const imgStyle = {
 
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        width: '60vw',
-        height: '70vh',
-    }
-    const leftStyle = {
-        width: '50vw',
-        height: '70vh',
-    }
+    //     backgroundSize: 'contain',
+    //     backgroundRepeat: 'no-repeat',
+    //     width: '60vw',
+    //     height: '70vh',
+    // }
+    // const leftStyle = {
+    //     width: '50vw',
+    //     height: '70vh',
+    // }
  const divStyle = {
     height: '70vh'
  }
