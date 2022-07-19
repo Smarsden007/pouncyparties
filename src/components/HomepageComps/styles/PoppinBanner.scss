@@ -1,0 +1,30 @@
+.poppin-banner-hold{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+}
+.banhold{
+width: 100vw;
+height: 40vh;
+}
+.bannerpoppin{
+background-image: url('../../../media/homepage/hpbanner.png');
+background-size: cover;
+background-position: 25% 25%;
+width: 100vw;
+height: 55vh;
+}
+@media (max-width: 587px){
+    .banhold{
+        width: 100vw;
+        height: 2vh;
+        }
+        .bannerpoppin{
+        background-image: url('../../../media/homepage/hpbanner.png');
+        background-size: contain;
+        background-repeat: none;
+        background-position: 25% 25%;
+        width: 100vw;
+        height: 12vh;
+}}

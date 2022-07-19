@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins&display=swap');
+
+
+.sectionTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.35vh;
+    width: 100%;
+
+}
+
+.section2cont {
+    display: flex;
+    flex-direction: row-rev;
+    justify-content: space-between;
+    width: 95vw;
+    
+}
+
+.imagehold2{
+    background-image: url('./../../../media/homepage/hprow2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 90vh;
+}
+
+.right-cont2{
+   
+    text-align: right;
+}
+

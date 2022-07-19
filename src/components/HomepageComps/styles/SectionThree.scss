@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins&display=swap');
+
+
+.sectionThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.70vh;
+    width: 100vw;
+    height: 75vh;
+}
+
+.section3cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+}
+
+.imagehold3{
+    background-image: url('./../../../media/homepage/hprow3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 90vh;
+}
+
+.right-cont3{
+   
+    text-align: left;
+}
+
+.headertext3 {
+    font-family: 'Helvetica Neue';
+    
+    
+}
+
+.body1{
+    font-size: 1.75vw;
+    font-weight: 300;
+}
+// @media (max-width: 1200px){
+//     .imagehold{
+//         background-image: url('./../../../media/homepage/hprow1.png');
+//         background-size: contain;
+//         background-repeat: no-repeat;
+//         width: 60vw;
+//         height: 60vh;
+//     }
+    
+//     .right-cont{
+//         height: 60vh;
+//         text-align: left;
+//     }
+// }

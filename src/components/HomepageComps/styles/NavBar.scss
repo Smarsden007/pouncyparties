@@ -1,0 +1,40 @@
+
+
+
+.mastynav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 80vh;
+}
+
+.navcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   position: absolute;
+   bottom: 90vh;
+}
+
+.logo{
+    background-image: url('./../../../media/logos/Rectangle\ 2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 20vh;
+    position: relative;
+   right: 22.5vw;
+   top: 8vw;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70vw;
+
+}
+
+li{
+    list-style: none;
+}

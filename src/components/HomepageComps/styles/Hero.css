@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullsizehero {
+  background-image: url("../../../media/homepage/hphero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+}
+
+.herobutt {
+  background-color: #E6BEAE;
+  height: 10vh;
+  width: 17vw;
+  font-family: "amatic SC";
+  color: white;
+  margin-top: 85vh;
+  font-size: 7vh;
+  border: none;
+}/*# sourceMappingURL=Hero.css.map */

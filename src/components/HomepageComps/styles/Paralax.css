@@ -1,0 +1,93 @@
+.holdb1 {
+  margin-top: 5rem;
+  background: url("./../../../media/homepage/hpparalax.png");
+  background-size: cover;
+  background-position: 25% 85%;
+  width: 100vw;
+  height: 70vh;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "poppins";
+  font-weight: lighter;
+}
+
+.bannertext {
+  padding-top: 1.5rem;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: 5.75rem;
+  color: black;
+  margin-bottom: none;
+}
+
+.holdb2 {
+  height: 20%;
+}
+
+.holdb3 {
+  height: 20%;
+}
+
+h1 span.quotemark {
+  margin: none;
+  font-weight: lighter;
+  font-family: "poppins";
+  font-size: 10rem;
+}
+
+button.bannerbutt {
+  background-color: #e6beae;
+  width: 14rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  color: white;
+  font-size: 1.75rem;
+}
+
+.bannerbutt:hover {
+  background-color: #b2967d;
+  color: #eee4e1;
+  font-size: 1.75rem;
+}
+
+@media (max-width: 587px) {
+  .holdb1 {
+    margin-top: 5rem;
+    background: url("./../../../media/homepage/hpparalax.png");
+    background-size: cover;
+    height: 10vh;
+    background-attachment: fixed;
+    background-position: 65% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "poppins";
+    font-weight: lighter;
+  }
+  .bannertext {
+    font-family: "poppins";
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: black;
+  }
+  .holdb2 {
+    padding-bottom: 1rem;
+  }
+  button.bannerbutt {
+    background-color: #e6beae;
+    width: 7rem;
+    height: 1.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    color: white;
+    font-size: 0.75rem;
+  }
+  .bannerbutt:hover {
+    background-color: #b2967d;
+    color: #eee4e1;
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=Paralax.css.map */
