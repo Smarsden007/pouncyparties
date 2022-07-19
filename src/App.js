@@ -9,7 +9,8 @@ import HomePage from './Webpages/Homepage.js'
 import Services from './Webpages/Services.js'
 import Booking from './Webpages/Booking'
 import NavBar from './components/HomepageComps/NavBar';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/HomepageComps/Footer';
+
 // import ScrollToTop from './components/ScrollTopTop';
 
 function App() {
@@ -30,9 +31,9 @@ function App() {
         </Routes>
 
       </Router>
-      {/* <div className='fotty'>
+     <div>
         <Footer />
-           </div> */}
+           </div>
     </div>
   );
 }
