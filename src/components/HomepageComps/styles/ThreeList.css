@@ -16,6 +16,7 @@
   font-family: "Poppins";
   font-weight: lighter;
   font-size: 3rem;
+  color: white;
 }
 
 .box1 {
@@ -25,6 +26,7 @@
   font-size: 1.5rem;
   height: 20rem;
   width: 15rem;
+  color: white;
 }
 
 .line {
@@ -43,6 +45,7 @@
   font-size: 1.5rem;
   height: 20rem;
   width: 15rem;
+  color: white;
 }
 
 .box3 {
@@ -56,6 +59,8 @@
 
 .descsan {
   font-size: 1rem;
+  color: white;
+  margin-bottom: 1vh;
 }
 
 .mobileline {

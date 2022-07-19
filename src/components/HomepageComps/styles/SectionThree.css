@@ -1,37 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins&display=swap");
-.sectionThree {
+.sectionOne {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1.7vh;
+  margin-top: 4vh;
   width: 100vw;
-  height: 75vh;
 }
 
-.section3cont {
+.section1cont {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 95vw;
+  height: auto;
+  padding-bottom: 15%;
 }
 
-.imagehold3 {
-  background-image: url("./../../../media/homepage/hprow3.png");
+.imagehold {
   background-size: contain;
   background-repeat: no-repeat;
   width: 60vw;
-  height: 90vh;
+  height: 30vw;
 }
 
-.right-cont3 {
+.right-cont {
+  margin-top: -3%;
   text-align: left;
 }
 
-.headertext3 {
+.left-cont {
+  height: 80vh;
+}
+
+.headertext1 {
   font-family: "Helvetica Neue";
 }
 
 .body1 {
   font-size: 1.75vw;
   font-weight: 300;
+}
+
+.photobutt {
+  margin-top: 2vh;
+  margin-left: 1vw;
+  height: 7vh;
+  width: 25vw;
+  border: none;
+  background-color: #E6BEAE;
+  font-family: "poppins";
+  color: white;
+  font-size: 2vmax;
+  font-weight: lighter;
+}
+
+@media (max-width: 480px) {
+  .section1cont {
+    height: 10vh;
+  }
+  .right-cont {
+    height: 30vh;
+  }
+  .left-cont {
+    height: 30vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .section1cont {
+    height: 10vh;
+  }
+  .right-cont {
+    height: 30vh;
+  }
+  .left-cont {
+    height: 30vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .section1cont {
+    height: 20vh;
+  }
+  .right-cont {
+    height: 30vh;
+  }
+  .left-cont {
+    height: 30vh;
+  }
+}
+@media (min-width: 1200px) {
+  .section1cont {
+    height: 40vh;
+  }
+  .right-cont {
+    height: 30vh;
+  }
+  .left-cont {
+    height: 30vh;
+  }
 }/*# sourceMappingURL=SectionThree.css.map */

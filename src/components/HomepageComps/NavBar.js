@@ -15,35 +15,35 @@ export default function NavBar() {
         width: '50vw',
         fontSize: '2vw',
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
         justifyContent: 'space-evenly',
-        
+        marginBottom: '-4vh',
         fontWeight: '100',
     }
-const logoSizer = {
-    width: '25vw',
-    height: '20vh',
-}
-
-
+    const navItems ={
+        marginBottom: '-100vh',
+    }
+    const logoSizer = {
+        
+        width: '25vw',
+        height: '20vh',
+    }
+  
     return (
         <section style={navSize}>
             <div className="mastynav">
-
-                <div style={navStyle}>
+                <div style={navStyle} className='navy'>
                     <div className="logoholder" style={logoSizer}>
-                        <div className="logo" style={logoSizer}/>
+                        <div className="logo" style={logoSizer} />
                     </div>
-
+                    <div style={navItems}>
                     <ul >
-
-                        <li>HOME</li>
+                        <li >HOME</li>
                         <li>RENTALS</li>
                         <li>BOOK</li>
-                        <li>209-209-2099</li>
-
+                        <li className="Phoney">707-238-2741</li>
                     </ul>
-
+                    </div>
                 </div>
             </div>
         </section>

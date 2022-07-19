@@ -7,7 +7,7 @@
     justify-content: center;
     margin-top: 4vh;
     width: 100vw;
-    height: 75vh;
+  
 }
 
 .section1cont {
@@ -15,21 +15,25 @@
     flex-direction: row;
     justify-content: space-between;
     width: 95vw;
+    height: auto;
+    padding-bottom: 15%;
 }
 
 .imagehold{
-    background-image: url('./../../../media/homepage/hprow1.png');
+   
     background-size: contain;
     background-repeat: no-repeat;
     width: 60vw;
-    height: 90vh;
+    height: 30vw;
 }
 
 .right-cont{
-   
+   margin-top: -3%;
     text-align: left;
 }
-
+.left-cont{
+    height: 80vh;
+}
 .headertext1 {
     font-family: 'Helvetica Neue';
     
@@ -54,3 +58,28 @@
 //         text-align: left;
 //     }
 // }
+
+@media (max-width: 480px) {
+    .section1cont {height: 10vh;}
+    .right-cont {height: 30vh;}
+    .left-cont {height: 30vh;}
+
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .section1cont {height: 10vh;}
+        .right-cont {height: 30vh;}
+        .left-cont {height: 30vh;}
+    }
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+        .section1cont {height: 20vh;}
+    .right-cont {height: 30vh;}
+    .left-cont {height: 30vh;}
+    }
+    
+    @media (min-width: 1200px) {
+        .section1cont {height: 40vh;}
+        .right-cont {height: 30vh;}
+        .left-cont {height: 30vh;}
+    }
