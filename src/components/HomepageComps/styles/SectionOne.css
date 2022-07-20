@@ -5,6 +5,7 @@
   justify-content: center;
   margin-top: 4vh;
   width: 100vw;
+  height: 55vh;
 }
 
 .section1cont {
@@ -12,7 +13,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 95vw;
-  height: auto;
   padding-bottom: 15%;
 }
 
@@ -43,7 +43,7 @@
 
 @media (max-width: 480px) {
   .section1cont {
-    height: 10vh;
+    height: 7vh;
   }
   .right-cont {
     height: 30vh;
@@ -54,7 +54,7 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .section1cont {
-    height: 10vh;
+    height: 25vh;
   }
   .right-cont {
     height: 30vh;

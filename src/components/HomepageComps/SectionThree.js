@@ -2,7 +2,7 @@ import React from "react"
 import './styles/SectionThree.scss'
 // import { Link } from "react-router-dom"
 import img1 from './../../media/homepage/hprow3.png'
-export default function SectionOne(props) {
+export default function SectionThree(props) {
 const h1Style = {
     fontSize:'3vw',
     fontFamily: 'Helvetica Neue',
@@ -23,7 +23,7 @@ const imgStyle2 ={
 }
     return (
         <section className="sectionOne">
-            <div className="section1cont">
+            <div className="section3cont">
                <div className="left-cont" style={imgStyle2}>
                 <img src={img1}  className='imagehold'alt="img"/>
                </div>

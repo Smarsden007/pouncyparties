@@ -7,7 +7,7 @@
     justify-content: center;
     margin-top: 4vh;
     width: 100vw;
-  
+    height: 55vh;
 }
 
 .section2cont {
@@ -62,14 +62,14 @@
 // }
 
 @media (max-width: 480px) {
-    .section2cont {height: 10vh;}
+    .section2cont {height: 8vh;}
     .right-cont2 {height: 30vh;}
     .left-cont2 {height: 30vh;}
     
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
-        .section2cont {height: 10vh;}
+        .section2cont {height: 25vh;}
         .right-cont2 {height: 30vh;}
         .left-cont2 {height: 30vh;}
     }

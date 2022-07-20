@@ -1,5 +1,5 @@
 import React from "react"
-import './styles/SectionThree.scss'
+import './styles/SectionOne.scss'
 // import { Link } from "react-router-dom"
 import img1 from './../../media/homepage/hprow1.png'
 export default function SectionOne(props) {
