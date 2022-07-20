@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); 
+
+
 .footer {  
     width: 100%;  
     background-color: #EEE4E1;
@@ -14,6 +17,7 @@
   }
   h2{
     margin: 0rem;
+    font-weight: 300;
   }
   p{
     margin: 0rem;
@@ -32,7 +36,7 @@
       text-align: left;
   }
   .footer-headers{
-      font-family: 'prata';
+      font-family: 'Alfa Slab One';
       font-size: 2rem;
   }
   .navigation-footer{

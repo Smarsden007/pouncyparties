@@ -25,15 +25,17 @@ export default function Footer(props) {
                             <li>
                                 RENTALS
                             </li>
-                           
+                            <li>
+                                RESERVATIONS
+                            </li>
                         </ul>
                     </div>
                     <div className="footer-contact-box">
                         <h1 className="footer-headers">contact us</h1>
                         <h2 className="phone">Phone</h2>
-                        <p>(209)-209-2099</p>
+                        <p>(707)-239-2741</p>
                         <h2 className="email">Email</h2>
-                        <p>john@farmtruckcatering.com</p>
+                        <p>hello@pouncyparties.com</p>
                     </div>
                  
                 </div>

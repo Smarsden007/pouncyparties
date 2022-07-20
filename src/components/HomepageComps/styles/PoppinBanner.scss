@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: auto;
-    margin-top: 3vh;
+    height: fit-content;
+    width: 100vw;
 }
 .banhold{
-width: 80vw;
-height: 40vh;
+
 display: flex;
     flex-direction: row;
     justify-content: center;
-    height: auto;
+    height: 55vh;
 }
 .bannerpoppin{
 background-image: url('../../../media/homepage/hpbanner.png');
@@ -19,18 +18,23 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: 25% 25%;
 width: 100vw;
-height: 45vh;
+height: 55vh;
+margin-top: 2vh;
 }
 @media (max-width: 587px){
     .banhold{
         width: 100vw;
         height: 2vh;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
         }
         .bannerpoppin{
         background-image: url('../../../media/homepage/hpbanner.png');
         background-size: contain;
         background-repeat: none;
         background-position: 25% 25%;
-        width: 75vw;
+        width: 94vw;
         height: 12vh;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
 }}
