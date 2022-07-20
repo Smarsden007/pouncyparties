@@ -1,20 +1,7 @@
 import React from "react"
 import './styles/HomeGallery.scss'
-// import { Link } from "react-router-dom"
-
 export default function HomeGallery(props) {
-
-
-    // const leftStyle = {
-    //     width: '60vw',
-    //     height: '90vh',
-    // }
-    //   const sectionStyle = {
-    //     height: '60vh',
-    //   }
-
     return (
-
         <section className="galsection">
             <div className="galmaster">
                 <div className="galminimaster">
@@ -30,9 +17,6 @@ export default function HomeGallery(props) {
                     <div className="img3row2" />
                 </div>
             </div>
-
-
         </section>
-
     )
 }

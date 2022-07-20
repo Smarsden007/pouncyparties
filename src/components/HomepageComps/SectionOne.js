@@ -15,13 +15,7 @@ const pStyle ={
     fontWeight: '300',
     marginLeft: '1rem',
 }
-const imgStyle ={
-    
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-    width: '60vw',
-    height: 'auto'
-}
+
 const imgStyle2 ={
     
     backgroundSize: 'contain',
@@ -37,7 +31,7 @@ const imgStyle2 ={
 
             <div className="section1cont">
                <div className="left-cont" style={imgStyle2}>
-                <img src={img1}  className='imagehold'/>
+                <img src={img1}  className='imagehold' alt="img"/>
                </div>
                 <div className="right-cont">   
                 <h1 style={h1Style} >THIS AIN'T YOUR NORMAL BOUNCE HOUSE COMPANY</h1>

@@ -8,21 +8,15 @@ const h1Style = {
     fontSize:'3vw',
     fontFamily: 'Helvetica Neue',
     fontWeight: 100,
-    marginLeft: '1rem',
+    marginRight: '1rem',
 }
 const pStyle ={
     fontSize: '1.75vw',
     fontWeight: '300',
-    marginLeft: '1rem',
+    marginRight: '1rem',
     marginBottom: '.50rem',
 }
-const imgStyle ={
-    
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-    width: '60vw',
-    height: 'auto'
-}
+
 const imgStyle2 ={
     
     backgroundSize: 'contain',
@@ -38,7 +32,7 @@ const imgStyle2 ={
 
             <div className="section2cont">
                <div className="left-cont2" style={imgStyle2}>
-                <img src={img1}  className='imagehold2'/>
+                <img src={img1}  className='imagehold2' alt="img"/>
                </div>
                 <div className="right-cont2">   
                 <h1 style={h1Style} >STRAIGHT TO THE FACTS

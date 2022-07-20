@@ -23,8 +23,9 @@ section {
   color: white;
   margin-top: 85vh;
   font-size: 7vh;
+  font-weight: bolder;
   border: none;
-  box-shadow: 2px 5px rgba(13, 13, 13, 0.35);
+  box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
 
 @media (max-width: 480px) {

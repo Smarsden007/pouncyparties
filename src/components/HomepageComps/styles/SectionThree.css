@@ -52,6 +52,7 @@
   color: white;
   font-size: 2vmax;
   font-weight: lighter;
+  box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
 
 @media (max-width: 480px) {
