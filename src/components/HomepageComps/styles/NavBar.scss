@@ -51,6 +51,14 @@ li{
     ul {
         margin-top: 2vh;
     }
+    .mastynav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 75vh;
+        z-index: 1;
+    }
 
     }
     
