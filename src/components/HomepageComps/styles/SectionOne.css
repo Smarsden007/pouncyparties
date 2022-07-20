@@ -5,7 +5,7 @@
   justify-content: center;
   margin-top: 4vh;
   width: 100vw;
-  height: 55vh;
+  height: auto;
 }
 
 .section1cont {
@@ -43,7 +43,7 @@
 
 @media (max-width: 480px) {
   .section1cont {
-    height: 7vh;
+    height: 15vh;
   }
   .right-cont {
     height: 30vh;
@@ -54,7 +54,7 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .section1cont {
-    height: 25vh;
+    height: 22vh;
   }
   .right-cont {
     height: 30vh;
@@ -76,7 +76,18 @@
 }
 @media (min-width: 1200px) {
   .section1cont {
-    height: 40vh;
+    height: 35vh;
+  }
+  .right-cont {
+    height: 30vh;
+  }
+  .left-cont {
+    height: 30vh;
+  }
+}
+@media (min-width: 1500px) {
+  .section1cont {
+    height: 80vh;
   }
   .right-cont {
     height: 30vh;

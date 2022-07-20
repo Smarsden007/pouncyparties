@@ -110,8 +110,71 @@
       .navigation-footer{
           text-align: center;
       }
-      .logo {
-          margin-left: 0;
-      }
+ 
       
   }
+  @media (max-width: 480px) {
+    .logo2{
+        position: relative;
+        right: -1vw;
+        top: 3vh;
+        height: 7vh;
+         
+       }
+       .footer-headers{
+        font-family: 'Alfa Slab One';
+        font-size: 1rem;
+    }
+    .email{
+        margin-top: 0rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+    p{
+        color: #333333;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .social2{
+        margin-top: .2rem;
+    }
+    
+    .social2:hover{
+        color: #99431F;
+    }
+    .footer-copyright{
+        margin-top: 2rem;
+        
+        color: #333333;
+        font-size: .52rem;
+        
+    }
+    .fooot{
+        margin-left: -3vw;
+        font-size: .75rem;
+        text-align: left;
+    }
+    .phone{
+        font-size: 1rem;
+        text-align: left;
+    }
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        
+    }
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+    
+    }
+    
+    @media (min-width: 1200px) {
+        
+    }
+
+    @media (min-width: 1500px) {
+ 
+    }

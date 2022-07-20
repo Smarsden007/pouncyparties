@@ -2,7 +2,7 @@ import React from "react"
 import './styles/SectionTwo.scss'
 // import { Link } from "react-router-dom"
 import img1 from './../../media/homepage/hprow2.png'
-export default function SectionOne(props) {
+export default function SectionTwo(props) {
 
     const h1Style = {
         fontSize: '3vw',

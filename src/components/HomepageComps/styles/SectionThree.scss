@@ -7,7 +7,7 @@
     justify-content: center;
     margin-top: 4vh;
     width: 100vw;
-  
+  height: auto;
 }
 
 .section3cont {
@@ -57,6 +57,10 @@
     font-weight: lighter;
     box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
+.photobutt:hover{
+    background-color: #333333;
+
+}
 // @media (max-width: 1200px){
 //     .imagehold{
 //         background-image: url('./../../../media/homepage/hprow1.png');
@@ -92,7 +96,7 @@
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
-        .section3cont {height: 35vh;}
+        .section3cont {height: 13vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
@@ -108,7 +112,7 @@
     }
     
     @media (min-width: 1200px) {
-        .section3cont {height: 40vh;}
+        .section3cont {height: 30vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }

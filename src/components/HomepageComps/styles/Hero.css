@@ -28,6 +28,10 @@ section {
   box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
 
+button:hover {
+  background-color: #333333;
+}
+
 @media (max-width: 480px) {
   .herobutt {
     font-size: 4vh;

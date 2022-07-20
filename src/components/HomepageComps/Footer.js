@@ -15,27 +15,27 @@ export default function Footer(props) {
                     <div className="footer1" >
                         <h1 className="footer-headers">links</h1>
                         <ul className='navigation-footer'>
-                            <li>
+                            <li className="fooot">
                                 
                                 HOME
                             </li>
-                            <li>
+                            <li className="fooot">
                              FAQ
                             </li>
-                            <li>
+                            <li className="fooot">
                                 RENTALS
                             </li>
-                            <li>
+                            <li className="fooot">
                                 RESERVATIONS
                             </li>
                         </ul>
                     </div>
                     <div className="footer-contact-box">
                         <h1 className="footer-headers">contact us</h1>
-                        <h2 className="phone">Phone</h2>
-                        <p>(707)-239-2741</p>
-                        <h2 className="email">Email</h2>
-                        <p>hello@pouncyparties.com</p>
+                       
+                        <p className="fooot">(707)-239-2741</p>
+                    
+                        <p className="fooot">hello@pouncyparties.com</p>
                     </div>
                  
                 </div>

@@ -1,7 +1,7 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import './styles/Hero.scss'
 
-// import { Link } from "react-router-dom"
 
 export default function Hero() {
 
@@ -10,20 +10,14 @@ const heroStyle = {
     
 }
 
-const ctaStyle = {
-    backgroundColor: '#E6BEAE',
-    fontFamily: 'amatic SC',
-    color: 'white',
-    marginTop: '75vh',
-    border: 'none',
-    
-}
+
 
     return (
         <section style={heroStyle}>
             <div className="fullsizehero">
                 <div className="buttcont">
-                    <button className="herobutt" style={ctaStyle}>Book Now</button>
+                <Link  to="/">
+                  <button className="herobutt">Book Now</button></Link>
                 </div>
             </div>
         </section>

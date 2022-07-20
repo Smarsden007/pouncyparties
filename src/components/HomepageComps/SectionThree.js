@@ -30,7 +30,8 @@ const imgStyle2 ={
                 <div className="right-cont">   
                 <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU GOT YOU COVERED...</h1>
                 <p style={pStyle}>We offer in-house photography (starting at $250) and balloon services (starting at $25/ft).</p>
-                <button className="photobutt">Photography Portfolio</button>
+                <p style={pStyle}>Click below to view the portfolio!</p>
+                <a href="https://lisamarsden.myportfolio.com/"><button className="photobutt">Photography Portfolio</button></a>
                 </div>
             </div>
         </section>

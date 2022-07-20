@@ -5,6 +5,7 @@
   justify-content: center;
   margin-top: 4vh;
   width: 100vw;
+  height: auto;
 }
 
 .section3cont {
@@ -55,6 +56,10 @@
   box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
 
+.photobutt:hover {
+  background-color: #333333;
+}
+
 @media (max-width: 480px) {
   .section3cont {
     height: 6vh;
@@ -80,7 +85,7 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .section3cont {
-    height: 35vh;
+    height: 13vh;
   }
   .right-cont {
     height: 30vh;
@@ -113,7 +118,7 @@
 }
 @media (min-width: 1200px) {
   .section3cont {
-    height: 40vh;
+    height: 30vh;
   }
   .right-cont {
     height: 30vh;
