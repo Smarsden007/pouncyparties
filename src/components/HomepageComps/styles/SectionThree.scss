@@ -116,3 +116,10 @@
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+        .section3cont {height: 30vh;}
+        .right-cont {height: 30vh;}
+        .left-cont {height: 30vh;}
+
+      }
