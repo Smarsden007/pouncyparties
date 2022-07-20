@@ -29,11 +29,10 @@ margin-top: 2vh;
         margin-bottom: 4vh;
         }
         .bannerpoppin{
-        background-image: url('../../../media/homepage/hpbanner.png');
-        background-size: contain;
-        background-repeat: none;
-        background-position: 25% 25%;
-        height: 12vh;
-        margin-top: 2vh;
-        margin-bottom: 4vh;
-}}
+            background-image: url('../../../media/homepage/hpbanner.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 25% 25%;
+            width: 100vw;
+            height: 16vh;
+            }}
