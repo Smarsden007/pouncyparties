@@ -75,7 +75,7 @@
     justify-content: space-around;
     background-color: #b2967d;
     color: white;
-    height: auto;
+    height: 150vh;
   }
   .santitle {
     background-color: none;
@@ -118,5 +118,6 @@
     border-left: none;
     height: auto;
     padding-bottom: 6rem;
+    margin-top: 7rem;
   }
 }/*# sourceMappingURL=ThreeList.css.map */

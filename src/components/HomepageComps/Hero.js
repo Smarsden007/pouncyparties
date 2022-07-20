@@ -12,20 +12,18 @@ const heroStyle = {
 
 const ctaStyle = {
     backgroundColor: '#E6BEAE',
-    height: '10vh',
-    width: '17vw',
     fontFamily: 'amatic SC',
     color: 'white',
-    marginTop: '85vh',
-    fontSize: '3vw',
+    marginTop: '75vh',
     border: 'none',
+    
 }
 
     return (
         <section style={heroStyle}>
             <div className="fullsizehero">
                 <div className="buttcont">
-                    <button style={ctaStyle}>Book Now</button>
+                    <button className="herobutt" style={ctaStyle}>Book Now</button>
                 </div>
             </div>
         </section>

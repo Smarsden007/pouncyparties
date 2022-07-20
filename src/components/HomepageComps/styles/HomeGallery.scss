@@ -68,3 +68,27 @@ width: 20vw;
 height: 60vh;
 margin: 1rem;
 }
+
+@media (max-width: 480px) {
+    .galminimaster{
+        height: 20vh;
+    }
+   .img2row1{
+    height: 14vh;
+   }
+   .img1row2{
+    height: 14vh;
+   }
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+       
+    }
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+       
+    }
+    
+    @media (min-width: 1200px) {
+    
+    }
