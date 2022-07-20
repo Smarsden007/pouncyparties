@@ -60,7 +60,6 @@ button.bannerbutt {
     background: url("./../../../media/homepage/hpparalax.png");
     background-size: cover;
     height: 10vh;
-    background-attachment: fixed;
     background-position: 65% 15%;
     background-repeat: no-repeat;
     background-size: cover;
