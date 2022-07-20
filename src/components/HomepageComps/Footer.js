@@ -32,10 +32,10 @@ export default function Footer(props) {
                     </div>
                     <div className="footer-contact-box">
                         <h1 className="footer-headers">contact us</h1>
-                       
-                        <p className="fooot">(707)-239-2741</p>
-                    
-                        <p className="fooot">hello@pouncyparties.com</p>
+                        <p className="footstyle">PHONE</p>
+                        <a href="phone" className="fooot">(707)-239-2741</a>
+                        <p className="footstyle">EMAIL</p>
+                        <a href="email" className="fooot">hello@pouncyparties.com</a>
                     </div>
                  
                 </div>

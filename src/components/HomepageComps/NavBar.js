@@ -12,8 +12,8 @@ export default function NavBar() {
         justifyContent: 'center'
     }
     const navStyle = {
-        width: '50vw',
-        fontSize: '2vw',
+      
+        
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-evenly',
@@ -36,7 +36,7 @@ export default function NavBar() {
                     <div className="logoholder" style={logoSizer}>
                         <div className="logo" style={logoSizer} />
                     </div>
-                    <div style={navItems}>
+                    <div style={navItems} className='navy'>
                     <ul >
                         <li >HOME</li>
                         <li>RENTALS</li>
