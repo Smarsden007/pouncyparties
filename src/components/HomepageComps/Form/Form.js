@@ -134,7 +134,7 @@ function ContactForm() {
 
                         <ValidationError
                             prefix="Email"
-                            field="email"
+                            field="email" 
                             errors={state.errors}
                         />
 
