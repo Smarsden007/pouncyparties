@@ -4,11 +4,14 @@ $PouncyPink: #E6BEAE;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 2rem;
+    
+    background-image: url('./../../../../media/homepage/bboard.png');
+    width: 100vw;
 }
 .babycontainer{
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 .babycontainer2{
     display: flex;
@@ -36,12 +39,25 @@ $PouncyPink: #E6BEAE;
 }
 
 @media (max-width: 480px) {
-   
+   .babycontainer{
+            height: 20vh;
+         }
+         .babycontainer2{
+            height: 20vh;
+         }
+         .rentalbutt{
+            background-color:$PouncyPink ;
+            height: 2vh;
+            width: 17vw;
+        font-size: 1.5vh;}
+        .leftside{
+            margin-top: -1rem;
+        }
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
         .babycontainer{
-            height: 30vh;
+            height: 40vh;
          }
          .babycontainer2{
             height: 30vh;

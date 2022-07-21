@@ -81,6 +81,15 @@ li{
     .navigation-items {
         margin-top: 1rem;
     }
+    .link {
+        width: 4vw;
+        color: #F1ECCE;
+        text-decoration: none;
+        font-family: 'Helvetica Neue';
+        
+        font-weight: 200;
+        font-size: 1.50rem;
+    }
 }
 
 .open-nav-section {
@@ -150,4 +159,13 @@ li{
     align-items: center;
     margin-right: 2rem;
    }
+   .link {
+    width: 4vw;
+    color: #F1ECCE;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    
+    font-weight: 200;
+    font-size: 1.50rem;
+}
 }
