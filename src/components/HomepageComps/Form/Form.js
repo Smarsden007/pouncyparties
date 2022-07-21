@@ -14,7 +14,7 @@ function ContactForm() {
     return (
 
         <section className='book-now1'>
-            <div className='background'>
+            <div className='background2'>
                
                
 
@@ -145,7 +145,7 @@ function ContactForm() {
                             errors={state.errors}
                         />
                         <button className='formb' type="submit" disabled={state.submitting}>
-                            BOOK
+                            SUBMIT
                         </button>
                     </div>
                 </form>

@@ -1,0 +1,59 @@
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 80%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #333333;
+  margin-right: 2rem;
+  border-top-right-radius:.25rem;
+  border-bottom-right-radius:.25rem;
+  z-index: 1;
+}
+
+svg.socials{
+  height: 6vh;
+  width: 6vh;
+  color: #E6BEAE;
+  margin: 1rem;
+  
+
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+@media (max-width: 480px) {
+.icon-bar{
+  display: flex;
+  flex-direction: column;
+  top: 75%;
+}
+  
+svg.socials{
+  height: 3vh;
+  width: 3vh;
+
+  }
+}
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+     
+  }

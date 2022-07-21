@@ -1,9 +1,14 @@
-.background {
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.background2 {
   background-image: url("../../../media/homepage/bboard.png");
   background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+form{
+  margin-top: 6rem;
 }
 .email1 {
   display: flex;
@@ -63,27 +68,36 @@ textarea {
   border-right: none;
   border-style: solid bold;
   border-top: black;
+  width: 30vw;
+  height: 10vh;
+  margin-left: 1vw;
 }
 button.formb {
-  background-color: #EEE4E1;
-  border-radius: 0.25rem;
+  background-color: #E6BEAE;
+  font-size: 2rem;
   border: none;
-  margin-top: 5rem;
-  width: 10rem;
-  height: 1.5rem;
+  position: relative;
+  bottom: -7%;
+  width: 15rem;
+  height: 5.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-family: 'Amatic SC';
+  box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
 }
 
 button.formb:hover {
-  background-color: #706d6b;
+  background-color: #333333;
   border-radius: 0.25rem;
   border: none;
+  color: ;
 }
 .book-now1 {
   width: 100%;
 }
 .master-form {
   z-index: -2;
-  width: 25vw;
+  width: 45vw;
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -134,7 +148,7 @@ img.cassy {
 
 }
 @media (max-width: 478px) {
-  .background {
+  .background2 {
     background-image: url("../../../media/homepage/bboard.png");
     background-size: cover;
     width: 100vw;
@@ -197,4 +211,26 @@ img.cassy {
     margin-bottom: 2rem;
     margin-left: 3.5rem;
   }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+ 
+}
+@media (min-width: 1500px) {
+ 
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+
+
 }

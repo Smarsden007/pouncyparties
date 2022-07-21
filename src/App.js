@@ -10,6 +10,7 @@ import Booking from './Webpages/Booking'
 import NavBar from './components/HomepageComps/NavBar';
 import Footer from './components/HomepageComps/Footer';
 import RentalsPage from './Webpages/RentalsPage';
+import StickySocials from './components/HomepageComps/StickySocials';
 
 // import ScrollToTop from './components/ScrollTopTop';
 
@@ -32,6 +33,7 @@ function App() {
 
       </Router>
      <div>
+      <StickySocials />
         <Footer />
            </div>
     </div>
