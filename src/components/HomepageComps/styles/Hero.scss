@@ -29,7 +29,7 @@ section{
     width: 17vw;
     font-family: 'amatic SC';
     color: white;
-    margin-top: 80vh;
+    margin-top: 75vh;
     font-size: 7vh;
     font-weight: bolder;
     border: none;
@@ -47,13 +47,15 @@ button:hover{
         font-size: 4vh;
         height: 10vh;
     width: 57vw;
+
     }
 
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
         .herobutt {
-            font-size: 4vh
+            font-size: 4vh;
+          
         }
     }
     
