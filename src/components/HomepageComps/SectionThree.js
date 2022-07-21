@@ -35,8 +35,8 @@ const imgStyle2 ={
                 <img src={img1}  className='imagehold3' alt="img"/>
                </div>
                 <div className="right-cont3">   
-                <h1 style={h1Style} >THIS AIN'T YOUR NORMAL BOUNCE HOUSE COMPANY</h1>
-                <p style={pStyle}>Out with the old in with the new, forgot about the ugly old bounce houses your used too. We offer customizable bounce houses for every event, custom balloon arangemnets, set-up from start to finish leaving you only to worry about the party!</p>
+                <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU GOT YOU COVERED...</h1>
+                <p style={pStyle}>We offer in-house photography (starting at $250) and balloon services (starting at $25/ft).</p>
                 <a href="https://lisamarsden.myportfolio.com/"><button className="photobutt">Photography Portfolio</button></a>
                 </div>
 
