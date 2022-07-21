@@ -88,3 +88,18 @@
       font-size: 0.75rem;
     }
   }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .holdb1 {
+      margin-top: 5rem;
+      display: none;
+      background-size: cover;
+      height: 10vh;
+    
+      background-position: 65% 15% ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'poppins';
+      font-weight: lighter;
+    }
+  }

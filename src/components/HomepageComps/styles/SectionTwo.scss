@@ -72,6 +72,11 @@
     .right-cont2 {height: 30vh;}
     .left-cont2 {height: 30vh;}
     }
+    @media (min-width: 980px) and (max-width: 1199px) {
+        .section2cont {height: 25vh;}
+    .right-cont2 {height: 30vh;}
+    .left-cont2 {height: 30vh;}
+    }
     
     @media (min-width: 1200px) {
         .section2cont {height: 35vh;}

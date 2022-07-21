@@ -100,11 +100,15 @@
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
-        .section3cont {height: 15vh;}
+        .section3cont {height: 40vh;}
     .right-cont3 {height: 30vh;}
     .left-cont3 {height: 30vh;}
     }
-    
+    @media (min-width: 980px) and (max-width: 1199px) {
+        .section3cont {height: 40vh;}
+    .right-cont3 {height: 30vh;}
+    .left-cont3 {height: 30vh;}
+    }
     @media (min-width: 1200px) {
         .section3cont {height: 35vh;}
         .right-cont3 {height: 30vh;}
@@ -118,7 +122,7 @@
     }
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
         /* For landscape layouts only */
-        .section3cont {height: 30vh;}
+        .section3cont {height: 55vh;}
         .right-cont3 {height: 30vh;}
         .left-cont3 {height: 30vh;}
 

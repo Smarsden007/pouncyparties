@@ -6,7 +6,7 @@ import PoppinBanner from "../components/HomepageComps/PoppinBanner"
 import SectionOne from "../components/HomepageComps/SectionOne"
 import SectionThree from "../components/HomepageComps/SectionThree"
 import SectionTwo from "../components/HomepageComps/SectionTwo"
-import ThreeList from "../components/ThreeList"
+import ThreeList from "../components/HomepageComps/ThreeList"
 import './WebStyle/Homepage.scss'
 
 

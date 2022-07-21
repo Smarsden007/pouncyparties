@@ -44,7 +44,7 @@ export default function NavBar(props) {
                             <Link className="link" to="/">HOME</Link>
                         </li>
                         <li className="navstyles">
-                            <Link className="link" to="/about">RENTALS</Link>
+                            <Link className="link" to="/sonomacounty-bouncehousecastle-white">RENTALS</Link>
                         </li>
                         <li className="navstyles">
                             <Link className="link" to="/blog">RESERVATIONS</Link>
@@ -60,7 +60,7 @@ export default function NavBar(props) {
                         <Link className="link" to="/">HOME</Link>
                     </li>
                     <li>
-                        <Link className="link" to="/RENTALS">RENTALS</Link>
+                    <Link className="link" to="/sonomacounty-bouncehousecastle-white">RENTALS</Link>
                     </li>
                     <li>
                         <Link className="link" to="/menu">BOOK</Link>

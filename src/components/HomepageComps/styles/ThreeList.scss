@@ -60,14 +60,18 @@
     font-weight: lighter;
     font-size: 5vh;
   }
-  @media (max-width: 587px) {
+
+
+
+  @media (max-width: 480px) {
     .sec1master {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       background-color: #b2967d;
       color: white;
-      height: 150vh;
+      height: 115vh;
+      margin-top: -10vh;
     }
     .santitle {
       background-color: none;
@@ -112,4 +116,25 @@
       padding-bottom: 6rem;
       margin-top: 7rem;
     }
-  }
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+
+    }
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+    
+    }
+    
+    @media (min-width: 1200px) {
+    
+    }
+
+    @media (min-width: 1500px) {
+     
+    }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+     
+
+      }

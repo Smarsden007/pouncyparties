@@ -64,8 +64,13 @@
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
-        .section1cont {height: 10vh;
+        .section1cont {height: 20vh;
             }
+    .right-cont {height: 30vh;}
+    .left-cont {height: 30vh;}
+    }
+    @media (min-width: 980px) and (max-width: 1199px) {
+        .section1cont {height: 25vh;}
     .right-cont {height: 30vh;}
     .left-cont {height: 30vh;}
     }
