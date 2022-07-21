@@ -40,6 +40,7 @@
       font-size: 2rem;
       padding-bottom: 0;
       margin-bottom: 0;
+      color: #333333;
   }
   .navigation-footer{
       text-align: left;
@@ -92,6 +93,10 @@
     width: 20vw;
     
   }
+  .socials{
+    display: flex;
+    flex-direction: row;
+  }
   li{width: 10vw;}
   @media(max-width: 768px) {
       .footer-master {
@@ -117,6 +122,9 @@
       
   }
   @media (max-width: 480px) {
+    .footer-right-section{
+        height: 35vh;
+    }
     .logo2{
         position: relative;
         right: -1vw;
@@ -156,7 +164,7 @@
         
     }
     .fooot{
-        margin-left: -3vw;
+        margin-left: 0vw;
         font-size: .75rem;
         text-align: left;
     }
@@ -166,7 +174,13 @@
     }
     .footstyle{
         text-align: left;
-        margin-left: -3vw;
+        margin-left: 0vw;
+    }
+    .footer{
+        height: 55vh;
+    }
+    ul.navigation-footer{
+        margin-left: -5vw;
     }
     }
     

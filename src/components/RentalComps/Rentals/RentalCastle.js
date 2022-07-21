@@ -2,6 +2,8 @@ import React from 'react'
 // import Button from '../Button/Button'
 import './styles/RentalCastle.scss'
 import cassy from './../../../media/rentals/cassy.png'
+import mixy from './../../../media/rentals/mixxy.png'
+import tody from './../../../media/rentals/toddy.png'
 
 export default function RentalCastle(props) {
     <style>@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');</style>
@@ -59,7 +61,7 @@ export default function RentalCastle(props) {
                         </div>
                         <div className='babycontainer2'>
                             <div className='rightside' style={imgStyle2}>
-                                <img src={cassy} className='rentimage' alt='img' />
+                                <img src={mixy} className='rentimage' alt='img' />
                             </div>
                             <div className='leftside'>
                                 <h1 style={fontStyle1}>THE POUNCE & SLIDE</h1>
@@ -71,7 +73,7 @@ export default function RentalCastle(props) {
                         </div>
                         <div className='babycontainer'>
                             <div className='rightside' style={imgStyle2}>
-                                <img src={cassy} className='rentimage' alt='img' />
+                                <img src={tody} className='rentimage' alt='img' />
                             </div>
                             <div className='leftside'>
                                 <h1 style={fontStyle1}>THE TODDLER</h1>

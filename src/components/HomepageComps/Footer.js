@@ -2,7 +2,9 @@ import React from "react"
 
 import './styles/Footer.scss'
 import logo from './../../media/logos/logo.png'
-
+import face from './../../media/homepage/facebook.png'
+import insta from './../../media/homepage/instagram.png'
+import tik from './../../media/homepage/tiktok.png'
 export default function Footer(props) {
 
 
@@ -30,12 +32,24 @@ export default function Footer(props) {
                             </li>
                         </ul>
                     </div>
+                    
                     <div className="footer-contact-box">
                         <h1 className="footer-headers">contact us</h1>
                         <p className="footstyle">PHONE</p>
                         <a href="phone" className="fooot">(707)-239-2741</a>
                         <p className="footstyle">EMAIL</p>
                         <a href="email" className="fooot">hello@pouncyparties.com</a>
+                       
+                    <div className="socials"> 
+                    <a href="test">
+                        <img alt='img' src={face}/>
+                    </a>
+                    <a href="test">
+                        <img alt='img' src={insta}/>
+                    </a>
+                    <a href="test">
+                        <img alt='img' src={tik}/>
+                    </a></div>
                     </div>
                  
                 </div>
