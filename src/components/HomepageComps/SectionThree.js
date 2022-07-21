@@ -1,6 +1,5 @@
 import React from "react"
 import './styles/SectionThree.scss'
-// import { Link } from "react-router-dom"
 import img1 from './../../media/homepage/hprow3.png'
 export default function SectionOne(props) {
 
@@ -37,7 +36,7 @@ const imgStyle2 ={
                 <div className="right-cont3">   
                 <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU GOT YOU COVERED...</h1>
                 <p style={pStyle}>We offer in-house photography (starting at $250) and balloon services (starting at $25/ft).</p>
-                <a href="https://lisamarsden.myportfolio.com/"><button className="photobutt">Photography Portfolio</button></a>
+                <a href="https://lisamarsden.myportfolio.com/" target="_new"><button className="photobutt">Photography Portfolio</button></a>
                 </div>
 
 

@@ -8,7 +8,7 @@ export default function ThreeList(props) {
     
             <div className='sec1master'>
                 <div className='box1'>
-                    <h1 className='mobileline'>Free Delivery</h1>
+                    <h1 className='mobileline'> Delivery</h1>
                     <p className='descsan'>We proudly offer free delivery and set-up in Sonoma, Marin and Napa counties, additional charges apply outside of these area's. We truly provide a hassle free experience from start to finish!</p>
                 </div>
                 
