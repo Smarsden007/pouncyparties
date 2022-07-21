@@ -41,13 +41,13 @@ export default function Footer(props) {
                         <a href="email" className="fooot">hello@pouncyparties.com</a>
                        
                     <div className="socials"> 
-                    <a href="test">
+                    <a href="https://www.facebook.com/pouncyparties">
                         <img alt='img' src={face}/>
                     </a>
-                    <a href="test">
+                    <a href="https://www.instagram.com/pouncyparties/">
                         <img alt='img' src={insta}/>
                     </a>
-                    <a href="test">
+                    <a href="https://www.tiktok.com/@pouncyparties?source=h5_m&_r=1">
                         <img alt='img' src={tik}/>
                     </a></div>
                     </div>
