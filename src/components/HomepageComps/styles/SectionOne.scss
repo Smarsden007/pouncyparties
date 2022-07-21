@@ -27,7 +27,6 @@
     width: 60vw;
     height: 30vw;
 }
-
 .right-cont{
    margin-top: -3%;
     text-align: left;
@@ -36,45 +35,49 @@
     height: 80vh;
 }
 .headertext1 {
-    font-family: 'Helvetica Neue';
-    
-    
+    font-family: 'Helvetica Neue';  
 }
-
 .body1{
     font-size: 1.75vw;
     font-weight: 300;
 }
-
 @media (max-width: 480px) {
-    .section1cont {height: 15vh;
+    .section1cont {height: 20vh;
       margin-bottom: -7.5%;}
     .right-cont {height: 30vh;}
-    .left-cont {height: 30vh;}
-    
+    .left-cont {height: 0vh;}
+    .imagehold{
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60vw;
+        height: 40vw;
+    }
 
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
-        .section1cont {height: 22vh;}
+        .section1cont {height: 22vh;
+        }
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
-        .section1cont {height: 22vh;}
+        .section1cont {height: 10vh;
+            }
     .right-cont {height: 30vh;}
     .left-cont {height: 30vh;}
     }
     
     @media (min-width: 1200px) {
-        .section1cont {height: 30vh;}
+        .section1cont {height: 35vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
 
     @media (min-width: 1500px) {
-        .section1cont {height: 80vh;}
+        .section1cont {height: 33vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }

@@ -16,11 +16,11 @@
     flex-direction: row;
     justify-content: space-between;
     width: 95vw;
-    
-    padding-bottom: 0%;
+    height: auto;
+    padding-bottom: 15%;
 }
 
-.imagehold{
+.imagehold3{
    
     background-size: contain;
     background-repeat: no-repeat;
@@ -68,11 +68,18 @@
     .section3cont {height: 20vh;}
     .right-cont3 {height: 30vh;}
     .left-cont3 {height: 30vh;}
+    .imagehold3{
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 60vw;
+        height: 40vw;
+    }
     .photobutt{
-        margin-top: 2vh;
+        margin-top: 1vh;
         margin-left: 1vw;
-        height: 5vh;
-        width: 25vw;
+        height: 3vh;
+        width: 35vw;
         border: none;
         background-color: #E6BEAE;
         font-family: 'poppins';
@@ -93,19 +100,19 @@
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
-        .section3cont {height: 22vh;}
+        .section3cont {height: 15vh;}
     .right-cont3 {height: 30vh;}
     .left-cont3 {height: 30vh;}
     }
     
     @media (min-width: 1200px) {
-        .section3cont {height: 30vh;}
+        .section3cont {height: 35vh;}
         .right-cont3 {height: 30vh;}
         .left-cont3 {height: 30vh;}
     }
 
     @media (min-width: 1500px) {
-        .section3cont {height: 80vh;}
+        .section3cont {height: 33vh;}
         .right-cont3 {height: 30vh;}
         .left-cont3 {height: 30vh;}
     }

@@ -1,7 +1,7 @@
 import React from "react"
 import './styles/SectionThree.scss'
 // import { Link } from "react-router-dom"
-import img1 from './../../media/homepage/hprow1.png'
+import img1 from './../../media/homepage/hprow3.png'
 export default function SectionOne(props) {
 
 const h1Style = {
@@ -32,7 +32,7 @@ const imgStyle2 ={
 
             <div className="section3cont">
                <div className="left-cont3" style={imgStyle2}>
-                <img src={img1}  className='imagehold' alt="img"/>
+                <img src={img1}  className='imagehold3' alt="img"/>
                </div>
                 <div className="right-cont3">   
                 <h1 style={h1Style} >THIS AIN'T YOUR NORMAL BOUNCE HOUSE COMPANY</h1>
