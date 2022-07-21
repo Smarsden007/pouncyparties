@@ -17,10 +17,7 @@ export default function NavBar(props) {
     console.log("### pathlocation", location.pathname);
 
 
-    const numStyle = {
-        marginLeft: '2rem',
-        fontSize: '2rem',
-    }
+
     return (
         <section className={`${backgroundClass} ${background}`}>
             <Link to="/"><img src={logo} alt="logo" className={`logo`} /></Link>
@@ -54,6 +51,7 @@ export default function NavBar(props) {
                         </li> 
                     </ul>
                 </div>
+                
             </div>
 
             <div className='open-nav-section'>
@@ -67,7 +65,7 @@ export default function NavBar(props) {
                     <li>
                         <Link className="link" to="/menu">BOOK</Link>
                     </li>
-                        <a style={numStyle}>707-238-2323</a>
+                        <a href="tel:7072382741" className="astyle">707-238-2323</a>
                 </ul>
             </div>
 
