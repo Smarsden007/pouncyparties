@@ -108,28 +108,12 @@ function ContactForm() {
                             </select>
                         </div>
                         <label htmlFor="city">
-                            *where will the rental be set-up?
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder='Park, Backyard, Venue etc.'
-                        />
-                        <label htmlFor="city">
                             *what type of surface will the rental be set-up on?(we do not set-up on rock, dirt, or gravel)
                         </label>
                         <textarea
                             id="message"
                             name="message"
                             placeholder='Grass, Dirt, Pavement etc. (WE DO NOT SET-UP ON GRAVEL)'
-                        />
-                        <label htmlFor="city">
-                            *event type & theme
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder='Birthday, Baby Shower with Pink Theme etc. Describe your event!'
                         />
                         <label htmlFor="city">
                             *how did you hear about us?
@@ -140,12 +124,12 @@ function ContactForm() {
                             placeholder='Facebook, Instagram, Twitter, TikTok'
                         />
                         <label htmlFor="city">
-                            instagram handle (to tag you in any photos or videos of your celebration)
+                            coupon code
                         </label>
                         <textarea
                             id="message"
                             name="message"
-                            placeholder='@pouncyparties'
+                            placeholder='LETSGETPOUNCY'
                         />
 
                         <ValidationError
