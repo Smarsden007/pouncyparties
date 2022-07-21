@@ -79,39 +79,42 @@
 // }
 
 @media (max-width: 480px) {
-    .section1cont {height: 15vh;}
-    .right-cont {height: 30vh;}
-    .left-cont {height: 30vh;}
+    .section3cont {height: 10vh;}
+    .right-cont3 {height: 30vh;}
+    .left-cont3 {height: 30vh;}
 
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
-        .section1cont {height: 22vh;}
-        .right-cont {height: 30vh;}
-        .left-cont {height: 30vh;}
+        .section3cont {height: 22vh;
+        margin-bottom: -10vh;}
+        .right-cont3 {height: 10vh;
+            margin-bottom: -10vh;}
+        .left-cont3 {height: 10vh;
+         margin-bottom: -10vh;}
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
-        .section1cont {height: 22vh;}
-    .right-cont {height: 30vh;}
-    .left-cont {height: 30vh;}
+        .section3cont {height: 22vh;}
+    .right-cont3 {height: 30vh;}
+    .left-cont3 {height: 30vh;}
     }
     
     @media (min-width: 1200px) {
-        .section1cont {height: 30vh;}
-        .right-cont {height: 30vh;}
-        .left-cont {height: 30vh;}
+        .section3cont {height: 30vh;}
+        .right-cont3 {height: 30vh;}
+        .left-cont3 {height: 30vh;}
     }
 
     @media (min-width: 1500px) {
-        .section1cont {height: 80vh;}
-        .right-cont {height: 30vh;}
-        .left-cont {height: 30vh;}
+        .section3cont {height: 80vh;}
+        .right-cont3 {height: 30vh;}
+        .left-cont3 {height: 30vh;}
     }
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
         /* For landscape layouts only */
-        .section1cont {height: 30vh;}
-        .right-cont {height: 30vh;}
-        .left-cont {height: 30vh;}
+        .section3cont {height: 30vh;}
+        .right-cont3 {height: 30vh;}
+        .left-cont3 {height: 30vh;}
 
       }

@@ -10,7 +10,7 @@ export default function NavBar(props) {
     const [menu, setMenu] = useState("closed")
     const [background, setBackground] = useState("")
     const [hamDisplay, setHamDisplay] = useState("hamburger-section")
-    const [hamColor, setHamColor] = useState('black')
+    const [, setHamColor] = useState('black')
     const location = useLocation();
     const backgroundClass = location.pathname === "/" ? 'navigation-container home' : 'navigation-container';
 
