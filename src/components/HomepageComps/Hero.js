@@ -9,9 +9,6 @@ const heroStyle = {
     width: '100vw',
     
 }
-
-
-
     return (
         <section style={heroStyle}>
             <div className="fullsizehero">

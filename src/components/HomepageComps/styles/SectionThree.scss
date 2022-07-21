@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins&display=swap');
 
 
-.sectionOne{
+.sectionThree{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 4vh;
+    margin-top: 1vh;
     width: 100vw;
-  height: auto;
+    height: auto;
+  
 }
 
 .section3cont {
@@ -15,8 +16,8 @@
     flex-direction: row;
     justify-content: space-between;
     width: 95vw;
-    height: auto;
-    padding-bottom: 15%;
+    
+    padding-bottom: 0%;
 }
 
 .imagehold{
@@ -27,11 +28,11 @@
     height: 30vw;
 }
 
-.right-cont{
+.right-cont3{
    margin-top: -3%;
     text-align: left;
 }
-.left-cont{
+.left-cont3{
     height: 80vh;
 }
 .headertext1 {
@@ -44,6 +45,7 @@
     font-size: 1.75vw;
     font-weight: 300;
 }
+
 .photobutt{
     margin-top: 2vh;
     margin-left: 1vw;
@@ -77,48 +79,38 @@
 // }
 
 @media (max-width: 480px) {
-    .section3cont {height: 6vh;}
+    .section1cont {height: 15vh;}
     .right-cont {height: 30vh;}
     .left-cont {height: 30vh;}
-    .photobutt{
-        margin-top: .5vh;
-        margin-left: 1vw;
-        height: 3vh;
-        width: 25vw;
-        border: none;
-        background-color: #E6BEAE;
-        font-family: 'poppins';
-        color: white;
-        font-size: 1vmax;
-        font-weight: lighter;
-    }
 
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
-        .section3cont {height: 13vh;}
+        .section1cont {height: 22vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
+    
     @media (min-width: 768px) and (max-width: 979px) {
-        .section3cont {height: 20vh;}
-    .right-cont {height: 30vh;}
-    .left-cont {height: 30vh;}
-    }
-    @media (min-width: 768px) and (max-width: 979px) {
-        .section3cont {height: 32.75vh;}
+        .section1cont {height: 22vh;}
     .right-cont {height: 30vh;}
     .left-cont {height: 30vh;}
     }
     
     @media (min-width: 1200px) {
-        .section3cont {height: 30vh;}
+        .section1cont {height: 30vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
     }
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1124px) and (orientation:landscape) {
+
+    @media (min-width: 1500px) {
+        .section1cont {height: 80vh;}
+        .right-cont {height: 30vh;}
+        .left-cont {height: 30vh;}
+    }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
         /* For landscape layouts only */
-        .section3cont {height: 30vh;}
+        .section1cont {height: 30vh;}
         .right-cont {height: 30vh;}
         .left-cont {height: 30vh;}
 

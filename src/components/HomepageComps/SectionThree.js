@@ -1,13 +1,15 @@
 import React from "react"
 import './styles/SectionThree.scss'
 // import { Link } from "react-router-dom"
-import img1 from './../../media/homepage/hprow3.png'
-export default function SectionThree(props) {
+import img1 from './../../media/homepage/hprow1.png'
+export default function SectionOne(props) {
+
 const h1Style = {
     fontSize:'3vw',
     fontFamily: 'Helvetica Neue',
     fontWeight: 100,
     marginLeft: '1rem',
+    marginBottom: '1rem',
 }
 const pStyle ={
     fontSize: '1.75vw',
@@ -16,23 +18,37 @@ const pStyle ={
 }
 
 const imgStyle2 ={
+    
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     width: '60vw',
     height: '50vh'
 }
     return (
-        <section className="sectionOne">
+        
+        <section className="sectionThree">
+
+
+
             <div className="section3cont">
-               <div className="left-cont" style={imgStyle2}>
-                <img src={img1}  className='imagehold'alt="img"/>
+               <div className="left-cont3" style={imgStyle2}>
+                <img src={img1}  className='imagehold' alt="img"/>
                </div>
-                <div className="right-cont">   
-                <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU GOT YOU COVERED...</h1>
-                <p style={pStyle}>We offer in-house photography (starting at $250) and balloon services (starting at $25/ft).</p>
+                <div className="right-cont3">   
+                <h1 style={h1Style} >THIS AIN'T YOUR NORMAL BOUNCE HOUSE COMPANY</h1>
+                <p style={pStyle}>Out with the old in with the new, forgot about the ugly old bounce houses your used too. We offer customizable bounce houses for every event, custom balloon arangemnets, set-up from start to finish leaving you only to worry about the party!</p>
                 <a href="https://lisamarsden.myportfolio.com/"><button className="photobutt">Photography Portfolio</button></a>
                 </div>
+
+
+
+
+
             </div>
+
+
+
         </section>
+
     )
 }

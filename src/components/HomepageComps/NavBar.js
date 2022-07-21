@@ -1,52 +1,76 @@
-import React from "react"
+import React, { useState } from "react"
+import { Link, useLocation } from "react-router-dom"
 import './styles/NavBar.scss'
+import logo from './../../media/logos/logo.png'
 
-// import { Link } from "react-router-dom"
+import { Twirl as Hamburger } from 'hamburger-react'
 
-export default function NavBar() {
+export default function NavBar(props) {
+
+    const [menu, setMenu] = useState("closed")
+    const [background, setBackground] = useState("")
+    const [hamDisplay, setHamDisplay] = useState("hamburger-section")
+    const [hamColor, setHamColor] = useState('black')
+    const location = useLocation();
+    const backgroundClass = location.pathname === "/" ? 'navigation-container home' : 'navigation-container';
+
+    console.log("### pathlocation", location.pathname);
 
 
-    const navSize = {
-        width: '100vw',
-        flexDirection: 'row',
-        justifyContent: 'center'
+    const numStyle = {
+        marginLeft: '2rem',
+        fontSize: '2rem',
     }
-    const navStyle = {
-      
-        
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        marginBottom: '-4vh',
-        fontWeight: '100',
-    }
-    const navItems ={
-        marginBottom: '-100vh',
-    }
-    const logoSizer = {
-        
-        width: '25vw',
-        height: '20vh',
-    }
-  
     return (
-        <section style={navSize}>
-            <div className="mastynav">
-                <div style={navStyle} className='navy'>
-                    <div className="logoholder" style={logoSizer}>
-                        <div className="logo" style={logoSizer} />
-                    </div>
-                    <div style={navItems} className='navy'>
-                    <ul >
-                        <li >HOME</li>
-                        <li>RENTALS</li>
-                        <li>BOOK</li>
-                        <li className="Phoney">707-238-2741</li>
+        <section className={`${backgroundClass} ${background}`}>
+            <Link to="/"><img src={logo} alt="logo" className={`logo`} /></Link>
+            <div className={`${hamDisplay}`}>
+                <div className='hamburger'>
+                    <Hamburger color="#B2B2B2" onToggle={toggled => {
+                        if (toggled) {
+                            setHamColor("white")
+                            setMenu('menu')
+                            setBackground("background")
+                            setHamDisplay("hamburger-section-open")
+                        } else {
+                            setHamColor("black")
+                            setMenu('closed')
+                            setBackground("")
+                            setHamDisplay("hamburger-section")
+                        }
+                    }} />
+                </div>
+
+                <div className={menu}>
+                    <ul className='navigation-items'>
+                        <li className="navstyles">
+                            <Link className="link" to="/">HOME</Link>
+                        </li>
+                        <li className="navstyles">
+                            <Link className="link" to="/about">RENTALS</Link>
+                        </li>
+                        <li className="navstyles">
+                            <Link className="link" to="/blog">RESERVATIONS</Link>
+                        </li> 
                     </ul>
-                    </div>
                 </div>
             </div>
-        </section>
 
+            <div className='open-nav-section'>
+                <ul className='navigation-items'>
+                    <li>
+                        <Link className="link" to="/">HOME</Link>
+                    </li>
+                    <li>
+                        <Link className="link" to="/RENTALS">RENTALS</Link>
+                    </li>
+                    <li>
+                        <Link className="link" to="/menu">BOOK</Link>
+                    </li>
+                        <a style={numStyle}>707-238-2323</a>
+                </ul>
+            </div>
+
+        </section>
     )
 }

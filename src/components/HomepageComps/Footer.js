@@ -1,7 +1,7 @@
 import React from "react"
 
 import './styles/Footer.scss'
-import logo from './../../media/logos/Rectangle 2.png'
+import logo from './../../media/logos/logo.png'
 
 export default function Footer(props) {
 
