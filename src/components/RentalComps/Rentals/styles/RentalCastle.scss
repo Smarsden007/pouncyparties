@@ -1,0 +1,98 @@
+$PouncyPink: #E6BEAE;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.babycontainer{
+    display: flex;
+    flex-direction: row;
+}
+.babycontainer2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rentimage{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 30vw;
+}
+.rentalbutt{
+    background-color:$PouncyPink ;
+    height: 10vh;
+    width: 17vw;
+    font-family: 'amatic SC';
+    color: white;
+    font-size: 7vh;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
+}
+.leftside{
+    margin-top: -3rem;
+}
+
+@media (max-width: 480px) {
+   
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .babycontainer{
+            height: 30vh;
+         }
+         .babycontainer2{
+            height: 30vh;
+         }
+         .rentalbutt{
+            background-color:$PouncyPink ;
+            height: 5vh;
+            width: 17vw;
+        font-size: 4vh;}
+    }
+   
+    @media (min-width: 768px) and (max-width: 979px) {
+        .babycontainer{
+            height: 40vh;
+         }
+         .babycontainer2{
+            height: 40vh;
+         }
+         .leftside{
+            margin-top: -1rem;
+        }
+        
+        .rentalbutt{
+            background-color:$PouncyPink ;
+            height: 5vh;
+            width: 17vw;
+        font-size: 4vh;}
+    
+    }
+    @media (min-width: 980px) and (max-width: 1199px) {
+        .babycontainer{
+            height: 60vh;
+         }
+         .babycontainer2{
+            height: 
+            60vh;
+         }
+    }
+    
+    @media (min-width: 1200px) {
+     .babycontainer{
+        height: 70vh;
+     }
+     .babycontainer2{
+        height: 70vh;
+     }
+    }
+    @media (min-width: 1500px) {
+       
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+     
+
+      }}

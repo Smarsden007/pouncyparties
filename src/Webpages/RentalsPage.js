@@ -14,10 +14,7 @@ export default function RentalsPage() {
         <div className='herostyles'>
       <RentalHero /></div>
       <div className='extrastyle'>
-      <div className='rentmaster'>
-        <RentalCastle />
-       
-      </div>
+      <RentalCastle />
       </div>
       
 
