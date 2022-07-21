@@ -44,6 +44,7 @@
 }
 .astyle{
     color: #333333;
+    font-size: 2rem;
 
 }
 .link {
@@ -133,6 +134,7 @@ li{
    
    .navigation-items li {
     padding: 1rem 0;
+   
    }
 
    
@@ -140,5 +142,9 @@ li{
         color:#F1ECCE;
    }
 
-
+   .navstyles{
+    width: auto;
+    align-items: center;
+    margin-right: 2rem;
+   }
 }

@@ -63,35 +63,33 @@
     background-color: #333333;
 
 }
-// @media (max-width: 1200px){
-//     .imagehold{
-//         background-image: url('./../../../media/homepage/hprow1.png');
-//         background-size: contain;
-//         background-repeat: no-repeat;
-//         width: 60vw;
-//         height: 60vh;
-//     }
-    
-//     .right-cont{
-//         height: 60vh;
-//         text-align: left;
-//     }
-// }
 
 @media (max-width: 480px) {
-    .section3cont {height: 10vh;}
+    .section3cont {height: 20vh;}
     .right-cont3 {height: 30vh;}
     .left-cont3 {height: 30vh;}
-
+    .photobutt{
+        margin-top: 2vh;
+        margin-left: 1vw;
+        height: 5vh;
+        width: 25vw;
+        border: none;
+        background-color: #E6BEAE;
+        font-family: 'poppins';
+        color: white;
+        font-size: 1.5vmax;
+        font-weight: lighter;
+        box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
+    }
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
         .section3cont {height: 22vh;
-        margin-bottom: -10vh;}
+        }
         .right-cont3 {height: 10vh;
-            margin-bottom: -10vh;}
+        }
         .left-cont3 {height: 10vh;
-         margin-bottom: -10vh;}
+      }
     }
     
     @media (min-width: 768px) and (max-width: 979px) {
