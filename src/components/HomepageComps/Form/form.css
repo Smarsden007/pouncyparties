@@ -1,7 +1,9 @@
 .background {
   background-image: url("../../../media/homepage/bboard.png");
   background-size: cover;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .email1 {
   display: flex;
@@ -81,14 +83,14 @@ button.formb:hover {
 }
 .master-form {
   z-index: -2;
-  width: 65vw;
+  width: 25vw;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 13rem;
+ 
   background-color: white;
-  padding: 3rem;
+
   border-radius: 1rem;
   
 }
@@ -127,7 +129,6 @@ img.cassy {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 7rem;
     margin-bottom: 5rem;
   }
 
@@ -142,11 +143,11 @@ img.cassy {
     margin-top: 2rem;
   }
   .master-form {
-    width: 65vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 2rem;
+  
   }
   .ran {
     width: 100vw;
@@ -160,8 +161,9 @@ img.cassy {
     
 }
   form {
-    width: 10rem;
+    width: 20rem;
     font-size: .65rem;
+    margin-left: 10vw;
   }
   input {
     background-color: #02020200;
@@ -171,12 +173,27 @@ img.cassy {
     border-left: none;
     border-right: none;
     border-top: black;
-    width: 12rem;
+    width: 10rem;
   }
   .reserve {
     font-family: "anchor-web";
     font-weight: 800;
     font-size: 2.5rem;
     color: #b2967d;
+  }
+  label {
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .email1{
+    width: 15rem;
+  }
+  textarea{
+    width: 55vw;
+    margin-left: 4vw;
+  }
+  .formb{
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
   }
 }

@@ -16,14 +16,14 @@ function ContactForm() {
         <section className='book-now1'>
             <div className='background'>
                
-                <h1 className='reserve'> RESERVE YOUR POUNCER</h1>
+               
 
                 <form onSubmit={handleSubmit}>
 
                     <div className='master-form'>
                         <div className='email1'>
                             <label htmlFor="name">
-                                *first name
+                                *first & last name
                             </label>
                             <input
                                 id="name"
@@ -34,17 +34,6 @@ function ContactForm() {
                         </div>
 
 
-                        <div className='email1'>
-                            <label htmlFor="name">
-                                *last name
-                            </label>
-                            <input
-                                id="name"
-                                type="name"
-                                name="name"
-                                placeholder='Parties'
-                            />
-                        </div>
                         <div className='email1'>
                             <label htmlFor="phone">
                                 *phone
