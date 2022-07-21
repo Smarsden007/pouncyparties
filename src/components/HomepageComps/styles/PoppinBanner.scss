@@ -10,7 +10,8 @@
 display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 55vh;
+    width: 100vw;
+    height: 50vh;
 }
 .bannerpoppin{
 background-image: url('../../../media/homepage/hpbanner.png');
@@ -19,15 +20,17 @@ background-repeat: no-repeat;
 background-position: 25% 25%;
 width: 100vw;
 height: 55vh;
-margin-top: 2vh;
+position: relative;
+bottom: 20vh;
+
 }
 @media (max-width: 587px){
     .banhold{
         
         width: 100vw;
-        height: 13.25vh;
-        margin-top: 6vh;
-        margin-bottom: 4vh;
+        height: 10vh;
+    
+       
         }
         .bannerpoppin{
             background-image: url('../../../media/homepage/hpbanner.png');
@@ -35,5 +38,6 @@ margin-top: 2vh;
             background-repeat: no-repeat;
             background-position: 25% 25%;
             width: 100vw;
-            height: 16vh;
+            position: relative;
+            bottom: 15vh;
             }}
