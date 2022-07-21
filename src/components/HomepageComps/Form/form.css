@@ -1,0 +1,182 @@
+.background {
+  background-image: url("../../../media/homepage/bboard.png");
+  background-size: cover;
+  
+}
+.email1 {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 1rem;
+}
+.ran {
+  display: flex;
+  flex-direction: row;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 45%;
+}
+.imgbookher{
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.city1 {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 1rem;
+}
+.return-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  font-family: "anchor-web";
+  font-size: 4rem;
+  color: #b2967d;
+  margin-top: 10rem;
+  margin-bottom: 40rem;
+}
+label {
+  font-family: "anchor-web";
+  text-align: left;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+input {
+  background-color: #02020200;
+  border-left: none;
+  border-right: none;
+  border-top: black;
+  border-left: none;
+  border-right: none;
+  border-top: black;
+}
+textarea {
+  background-color: #02020200;
+  border-left: none;
+  border-right: none;
+  border-style: solid bold;
+  border-top: black;
+}
+button.formb {
+  background-color: #EEE4E1;
+  border-radius: 0.25rem;
+  border: none;
+  margin-top: 5rem;
+  width: 10rem;
+  height: 1.5rem;
+}
+
+button.formb:hover {
+  background-color: #706d6b;
+  border-radius: 0.25rem;
+  border: none;
+}
+.book-now1 {
+  width: 100%;
+}
+.master-form {
+  z-index: -2;
+  width: 65vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 13rem;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  
+}
+.bouncer{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 1rem;
+    
+}
+.reserve {
+  font-family: "anchor-web";
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: #b2967d;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  font-family: poppins, light;
+  margin: none;
+  font-weight: 300;
+
+  font-style: light;
+}
+.header {
+  font-style: normal;
+}
+
+img.cassy {
+}
+
+@media (max-width: 678px) {
+  .master-form {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+  }
+
+}
+@media (max-width: 478px) {
+  .background {
+    background-image: url("../../../media/homepage/bboard.png");
+    background-size: cover;
+    width: 100vw;
+  }
+  .cass {
+    margin-top: 2rem;
+  }
+  .master-form {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+  }
+  .ran {
+    width: 100vw;
+    height: 15rem;
+  }
+  .bouncer{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    margin: 1rem;
+    
+}
+  form {
+    width: 10rem;
+    font-size: .65rem;
+  }
+  input {
+    background-color: #02020200;
+    border-left: none;
+    border-right: none;
+    border-top: black;
+    border-left: none;
+    border-right: none;
+    border-top: black;
+    width: 12rem;
+  }
+  .reserve {
+    font-family: "anchor-web";
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #b2967d;
+  }
+}

@@ -47,7 +47,7 @@ export default function NavBar(props) {
                             <Link className="link" to="/sonomacounty-bouncehousecastle-white">RENTALS</Link>
                         </li>
                         <li className="navstyles">
-                            <Link className="link" to="/blog">RESERVATIONS</Link>
+                            <Link className="link" to="/weddings-sonoma-county-bouncehouse">BOOK</Link>
                         </li> 
                     </ul>
                 </div>
@@ -63,8 +63,7 @@ export default function NavBar(props) {
                     <Link className="link" to="/sonomacounty-bouncehousecastle-white">RENTALS</Link>
                     </li>
                     <li>
-                        <Link className="link" to="/menu">BOOK</Link>
-                    </li>
+                    <Link className="link" to="/weddings-sonoma-county-bouncehouse">BOOK</Link>                    </li>
                         <a href="tel:7072382741" className="astyle">707-238-2323</a>
                 </ul>
             </div>
