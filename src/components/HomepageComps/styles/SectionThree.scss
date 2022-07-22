@@ -58,6 +58,7 @@
     font-size: 2vmax;
     font-weight: lighter;
     box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
+    z-index: 2;
 }
 .photobutt:hover{
     background-color: #333333;
@@ -78,7 +79,7 @@
     .photobutt{
         margin-top: 1vh;
         margin-left: 1vw;
-        height: 3vh;
+        height: 5vh;
         width: 35vw;
         border: none;
         background-color: #E6BEAE;
@@ -87,7 +88,11 @@
         font-size: 1.5vmax;
         font-weight: lighter;
         box-shadow: 1px 3px rgba(13, 13, 13, 0.35);
+        z-index: 2;
     }
+.facey{
+    width: 5vh;
+}
     }
     
     @media (min-width: 481px) and (max-width: 767px) {
