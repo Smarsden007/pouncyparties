@@ -12,10 +12,10 @@ export default function StickySocials(props) {
     return (
         <section className="icon-bar">
 
-        <a href="www.google.com" className="face"><FaFacebook className="socials"/></a>
-        <a href="www.google.com" className="face">
+        <a href="https://www.facebook.com/pouncyparties" className="face"><FaFacebook className="socials"/></a>
+        <a href="https://www.instagram.com/pouncyparties/" className="face">
         <FaTiktok className="socials"/></a>
-        <a href="www.google.com" className="face">
+        <a href="https://www.tiktok.com/@pouncyparties?source=h5_m&_r=1" className="face">
         <TiSocialInstagram className="socials"/>
         </a>
       </section>

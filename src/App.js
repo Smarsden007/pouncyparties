@@ -11,26 +11,18 @@ import NavBar from './components/HomepageComps/NavBar';
 import Footer from './components/HomepageComps/Footer';
 import RentalsPage from './Webpages/RentalsPage';
 import StickySocials from './components/HomepageComps/StickySocials';
-
-// import ScrollToTop from './components/ScrollTopTop';
-
+import ScrollToTop from './ScrollToTop';
 function App() {
-
-
-
-
   return (
     <div className="App">
       <Router>
-
      <NavBar />
-
+    <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/sonomacounty-bouncehousecastle-white" element={<RentalsPage />} />
           <Route path="/weddings-sonoma-county-bouncehouse" element={<Booking />} />
         </Routes>
-
       </Router>
      <div>
       <StickySocials />

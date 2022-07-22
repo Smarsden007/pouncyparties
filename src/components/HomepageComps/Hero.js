@@ -13,7 +13,7 @@ const heroStyle = {
         <section style={heroStyle}>
             <div className="fullsizehero">
                 <div className="buttcont">
-                <Link  to="/">
+                <Link  to="/weddings-sonoma-county-bouncehouse">
                   <button className="herobutt">Book Now</button></Link>
                 </div>
             </div>

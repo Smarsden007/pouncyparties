@@ -121,6 +121,9 @@
       
   }
   @media (max-width: 480px) {
+    .footer-contact-box{
+        display: none;
+    }
     .footer-right-section{
         height: 35vh;
     }
@@ -163,8 +166,9 @@
         
     }
     .fooot{
-        margin-left: 0vw;
-        font-size: .75rem;
+        margin-left: 2vw;
+        margin-top: 1rem;
+        font-size: 1rem;
         text-align: left;
     }
     .phone{

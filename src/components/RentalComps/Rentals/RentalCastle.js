@@ -4,6 +4,7 @@ import './styles/RentalCastle.scss'
 import cassy from './../../../media/rentals/cassy.png'
 import mixy from './../../../media/rentals/mixxy.png'
 import tody from './../../../media/rentals/toddy.png'
+import { Link } from 'react-router-dom'
 
 export default function RentalCastle(props) {
     <style>@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');</style>
@@ -56,7 +57,8 @@ export default function RentalCastle(props) {
                                 <p style={fontStyle2}>$450 4HRS / $550 6HRS / $650 8HRS</p>
                                 <p style={fontStyle3}>FOR ALL AGES</p>
                                 <p style={fontStyle4}>INCLUDES: SHOE RACK, 50-FOOT EXTENTION CORD, ENTRANCE RUG</p>
-                                <button  className='rentalbutt'>BOOK NOW</button>
+                                <Link  to="/weddings-sonoma-county-bouncehouse">
+                                <button  className='rentalbutt'>BOOK NOW</button></Link>
                             </div>
                         </div>
                         <div className='babycontainer2'>
@@ -68,7 +70,8 @@ export default function RentalCastle(props) {
                                 <p style={fontStyle2}>$450 4HRS / $550 6HRS / $650 8HRS</p>
                                 <p style={fontStyle3}>FOR ALL AGES</p>
                                 <p style={fontStyle4}>INCLUDES: SHOE RACK, 50-FOOT EXTENTION CORD, ENTRANCE RUG</p>
-                                <button  className='rentalbutt'>BOOK NOW</button>
+                                <Link  to="/weddings-sonoma-county-bouncehouse">
+                                <button  className='rentalbutt'>BOOK NOW</button></Link>
                             </div>
                         </div>
                         <div className='babycontainer'>
@@ -80,10 +83,11 @@ export default function RentalCastle(props) {
                                 <p style={fontStyle2}>$450 4HRS / $550 6HRS / $650 8HRS</p>
                                 <p style={fontStyle3}>FOR ALL AGES</p>
                                 <p style={fontStyle4}>INCLUDES: SHOE RACK, 50-FOOT EXTENTION CORD, ENTRANCE RUG</p>
-                                <button className='rentalbutt'>BOOK NOW</button>
+                                <Link  to="/weddings-sonoma-county-bouncehouse">
+                                <button  className='rentalbutt'>BOOK NOW</button></Link>
                             </div>
                         </div>
-                        <div className='babycontainer2'>
+                        {/* <div className='babycontainer2'>
                             <div className='rightside' style={imgStyle2}>
                                 <img src={cassy} className='rentimage' alt='img' />
                             </div>
@@ -94,7 +98,7 @@ export default function RentalCastle(props) {
                                 <p style={fontStyle4}>INCLUDES: SHOE RACK, 50-FOOT EXTENTION CORD, ENTRANCE RUG</p>
                                 <button className='rentalbutt'>BOOK NOW</button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
              
             

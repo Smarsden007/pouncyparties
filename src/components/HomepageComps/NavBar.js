@@ -10,17 +10,16 @@ export default function NavBar(props) {
     const [menu, setMenu] = useState("closed")
     const [background, setBackground] = useState("")
     const [hamDisplay, setHamDisplay] = useState("hamburger-section")
-    const [, setHamColor] = useState('black')
+    const [hamColor, setHamColor] = useState('black')
     const location = useLocation();
     const backgroundClass = location.pathname === "/" ? 'navigation-container home' : 'navigation-container';
 
     console.log("### pathlocation", location.pathname);
 
-
-
-    return (
+ return (
         <section className={`${backgroundClass} ${background}`}>
             <Link to="/"><img src={logo} alt="logo" className={`logo`} /></Link>
+            <a href="tel:7072382741" className="abstyle">707-238-2323</a>
             <div className={`${hamDisplay}`}>
                 <div className='hamburger'>
                     <Hamburger color="#B2B2B2" onToggle={toggled => {
@@ -37,7 +36,7 @@ export default function NavBar(props) {
                         }
                     }} />
                 </div>
-
+                        <div className={hamColor}/>
                 <div className={menu}>
                     <ul className='navigation-items'>
                         <li className="navstyles">
@@ -47,7 +46,7 @@ export default function NavBar(props) {
                             <Link className="link" to="/sonomacounty-bouncehousecastle-white">RENTALS</Link>
                         </li>
                         <li className="navstyles">
-                            <Link className="link" to="/weddings-sonoma-county-bouncehouse">BOOK</Link>
+                            <Link className="link1" to="/weddings-sonoma-county-bouncehouse">BOOK</Link>
                         </li> 
                     </ul>
                 </div>
