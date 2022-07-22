@@ -103,3 +103,10 @@
       font-weight: lighter;
     }
   }
+   
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .holdb1 {
+      display: none;
+    }
+}
