@@ -8,16 +8,15 @@ const h1Style = {
     fontSize:'3vw',
     fontFamily: 'Helvetica Neue',
     fontWeight: 100,
-    marginLeft: '1rem',
+    marginLeft: '.25rem',
 }
 const pStyle ={
     fontSize: '1.75vw',
     fontWeight: '300',
-    marginLeft: '1rem',
+    marginLeft: '.25rem',
 }
 
 const imgStyle2 ={
-    
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     width: '60vw',

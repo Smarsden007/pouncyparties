@@ -8,12 +8,12 @@ export default function SectionTwo(props) {
         fontSize: '3vw',
         fontFamily: 'Helvetica Neue',
         fontWeight: 100,
-        marginRight: '1rem',
+        marginRight: '.25rem',
     }
     const pStyle = {
         fontSize: '1.75vw',
         fontWeight: '300',
-        marginRight: '1rem',
+        marginRight: '.25rem',
         marginBottom: '.50rem',
     }
 
