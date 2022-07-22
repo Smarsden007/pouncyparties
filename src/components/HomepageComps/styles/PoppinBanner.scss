@@ -20,7 +20,7 @@
   width: 100vw;
   height: 55vh;
   position: relative;
-  bottom: 20vh;
+  bottom: 10vh;
 }
 
 @media (max-width: 480px) {
@@ -43,6 +43,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  .bannerpoppin{
+    position: relative;
+    bottom: 5vh;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -80,7 +84,8 @@
     background-repeat: no-repeat;
     background-position: 25% 25%;
     width: 100vw;
-  
+    position: relative;
+    bottom: 5vh;
     margin-bottom: 5vh;
   }
 }
