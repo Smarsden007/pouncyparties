@@ -34,7 +34,7 @@ const imgStyle2 ={
                 <img src={img1}  className='imagehold3' alt="img"/>
                </div>
                 <div className="right-cont3">   
-                <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU GOT YOU COVERED...</h1>
+                <h1 style={h1Style} >DON’T WORRY, WE’VE GOT YOU COVERED...</h1>
                 <p style={pStyle}>We offer in-house photography (starting at $250) and balloon services (starting at $25/ft).</p>
                 <a href='https://lisamarsden.myportfolio.com/'><button className="photobutt">Photography Portfolio</button></a>
                 </div>
