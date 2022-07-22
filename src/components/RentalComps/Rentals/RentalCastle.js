@@ -67,7 +67,7 @@ export default function RentalCastle(props) {
                             </div>
                             <div className='leftside'>
                                 <h1 style={fontStyle1}>THE POUNCE & SLIDE</h1>
-                                <p style={fontStyle2}>$550 4HRS / $550 6HRS / $650 8HRS</p>
+                                <p style={fontStyle2}>$450 4HRS / $550 6HRS / $650 8HRS</p>
                                 <p style={fontStyle3}>FOR ALL AGES</p>
                                 <p style={fontStyle4}>INCLUDES: SHOE RACK, 50-FOOT EXTENTION CORD, ENTRANCE RUG</p>
                                 <Link  to="/weddings-sonoma-county-bouncehouse">
