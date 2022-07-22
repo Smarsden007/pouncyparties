@@ -1,7 +1,8 @@
 import React from "react"
-
+import { Link } from "react-router-dom"
 import './styles/Footer.scss'
 import logo from './../../media/logos/logo.png'
+
 
 export default function Footer(props) {
 
@@ -18,17 +19,18 @@ export default function Footer(props) {
                         <ul className='navigation-footer'>
                             
                             <li className="fooot">
-                           
-                                HOME 
+                            <a href='https://www.pouncyparties.com/'>
+                                HOME </a>
                             </li>
                            
                             <li className="fooot">
-                            
+                            <a href='https://www.pouncyparties.com/sonomacounty-bouncehousecastle-white'>
                                 RENTALS
-                             
+                             </a>
                             </li>
                             <li className="fooot">
-                                BOOK
+                            <a href='https://www.pouncyparties.com/weddings-sonoma-county-bouncehouse'>
+                                BOOK</a>
                             </li>
                         </ul>
                     </div>
