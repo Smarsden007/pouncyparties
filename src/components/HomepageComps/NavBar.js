@@ -19,7 +19,7 @@ export default function NavBar(props) {
  return (
         <section className={`${backgroundClass} ${background}`}>
             <Link to="/"><img src={logo} alt="logo" className={`logo`} /></Link>
-            <a href="tel:7072382741" className="abstyle">707-238-2323</a>
+            <a href="tel:7072382741" className="abstyle">(707) 238-2741</a>
             <div className={`${hamDisplay}`}>
                 <div className='hamburger'>
                     <Hamburger color="#B2B2B2" onToggle={toggled => {
