@@ -18,17 +18,17 @@ export default function Footer(props) {
                         <ul className='navigation-footer'>
                             
                             <li className="fooot">
-                            <a href='https://www.pouncyparties.com/'>
+                            <a href='https://www.pouncyparties.com/' className="coloor">
                                 HOME </a>
                             </li>
                            
                             <li className="fooot">
-                            <a href='https://www.pouncyparties.com/sonomacounty-bouncehousecastle-white'>
+                            <a href='https://www.pouncyparties.com/sonomacounty-bouncehousecastle-white' className="coloor">
                                 RENTALS
                              </a>
                             </li>
                             <li className="fooot">
-                            <a href='https://www.pouncyparties.com/weddings-sonoma-county-bouncehouse'>
+                            <a href='https://www.pouncyparties.com/weddings-sonoma-county-bouncehouse' className="coloor">
                                 BOOK</a>
                             </li>
                         </ul>

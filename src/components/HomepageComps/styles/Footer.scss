@@ -97,6 +97,16 @@
     flex-direction: row;
   }
   li{width: 10vw;}
+
+  a.coloor{
+
+    color: #333333;
+  }
+  a.coloor:hover{
+
+    
+    color: #E6BEAE;
+  }
   @media(max-width: 768px) {
       .footer-master {
           width: 100%;
