@@ -207,9 +207,10 @@ img.cassy {
     width: 55vw;
     margin-left: 4vw;
   }
-  .formb{
-    margin-bottom: 2rem;
-    margin-left: 3.5rem;
+  button.formb{
+    margin-top: 1rem;
+    margin-left: .5rem;
+    height: 10vh;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {

@@ -57,10 +57,10 @@ $PouncyPink: #E6BEAE;
     
     @media (min-width: 481px) and (max-width: 767px) {
         .babycontainer{
-            height: 40vh;
+            height: 70vh;
          }
          .babycontainer2{
-            height: 30vh;
+            height: 70vh;
          }
          .rentalbutt{
             background-color:$PouncyPink ;
@@ -109,6 +109,11 @@ $PouncyPink: #E6BEAE;
        
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
         /* For landscape layouts only */
-     
+        .babycontainer{
+            height: 90vh;
+         }
+         .babycontainer2{
+            height: 90vh;
+         }
 
       }}
