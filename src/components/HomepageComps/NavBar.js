@@ -63,7 +63,7 @@ export default function NavBar(props) {
                     </li>
                     <li>
                     <Link className="link" to="/weddings-sonoma-county-bouncehouse">BOOK</Link>                    </li>
-                        <a href="tel:7072382741" className="astyle">707-238-2323</a>
+                        <a href="tel:7072382741" className="astyle">707-238-2741</a>
                 </ul>
             </div>
 
