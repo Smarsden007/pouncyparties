@@ -14,21 +14,21 @@ import img33 from './../../media/herogallery/row3img3.png'
 export default function HomeGallery(props) {
     return (
         <section className="galsection">
-            <div class="row">
-  <div class="column">
+            <div className="row">
+  <div className="column">
     <img alt='img' src={img1}/>
     <img alt='img' src={img2}/>
     <img alt='img' src={img3}/>
   
     
   </div>
-  <div class="column">
+  <div className="column">
     <img alt='img' src={img21}/>
     <img alt='img' src={img22}/>
     <img alt='img' src={img23}/>
  
   </div>
-  <div class="column">
+  <div className="column">
     <img alt='img' src={img31}/>
     <img alt='img' src={img32}/>
     <img alt='img' src={img33}/>
