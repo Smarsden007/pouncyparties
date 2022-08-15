@@ -48,7 +48,7 @@ export default function Footer(props) {
             </div>
             <div className="footer-copyright">
                 <p className="copyright">Copyright © 2022. All Right Reserved.</p>
-                <a href='https://www.practikwebdesign.com/'> <p>Powered by Practik</p></a>
+                <a href='https://www.google.com/'> <p></p></a>
 
             </div>
         </section>
