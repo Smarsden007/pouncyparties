@@ -1,156 +1,187 @@
-import React from 'react';
-import './form.css'
-
-
-
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
+import {
+    FormMaster,
+    FormCol,
+    FormButton,
+    FormBox,
+    LabelRow,
+    FormLabel,
+    FormInput,
+    SelectForm,
+    FormOption
+} from './FormStyles'
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("xqknoaaq");
+    const [state, handleSubmit] = useForm("mqknoyqr");
+    const [name, setName] = useState();
+    const [date, setDate] = useState();
     if (state.succeeded) {
         return <p className='return-message'>WE CAN'T WAIT TO CELEBRATE WITH YOU!</p>;
     }
+
+
     return (
 
-        <section className='book-now1'>
-            <div className='background2'>
-               
-               
+        <FormMaster>
 
-                <form onSubmit={handleSubmit}>
-
-                    <div className='master-form'>
-                        <div className='email1'>
-                            <label htmlFor="name">
-                                *first & last name
-                            </label>
-                            <input
+            <form onSubmit={handleSubmit}>
+                <FormCol>
+                    <FormBox>
+                        <LabelRow>
+                            <FormLabel htmlFor="name">
+                                Name
+                            </FormLabel>
+                            <FormInput
                                 id="name"
                                 type="name"
                                 name="name"
-                                placeholder='Pouncy'
+                                onChange={(e) => setName(e.target.value)}
                             />
-                        </div>
-
-
-                        <div className='email1'>
-                            <label htmlFor="phone">
-                                *phone
-                            </label>
-                            <input
-                                id="phone"
-                                type="phone"
-                                name="phone"
-                                placeholder='111-111-1111'
+                            <ValidationError
+                                prefix="name"
+                                field="name"
+                                errors={state.errors}
                             />
-                        </div>
-                        <div className='email1'>
-                            <label htmlFor="email">
-                                *email
-                            </label>
-                            <input
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="email">
+                                Email Address
+                            </FormLabel>
+                            <FormInput
                                 id="email"
                                 type="email"
                                 name="email"
-                                placeholder='hello@pouncyparties.com'
+                                onChange={(e) => setName(e.target.value)}
                             />
-                        </div>
-                        <div className='bouncer'>
-                            <label htmlFor="bouncer">
-                                *bouncer
-                            </label>
-                            <select name="bouncetype" id="bouncetype">
-                                <option value="cass">The Classic Castle</option>
-                                <option value="mixx">The Pounce and Slide Mix</option>
-                                <option value="toddler">The Toddler Sized</option>
-                            </select>
-                        </div>
-                        <div className='city1'>
-                            <label htmlFor="eventaddy">
-                                *event address
-                            </label>
-                            <input
+                            <ValidationError
+                                prefix="Email"
+                                field="email"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+
+                        <LabelRow>
+                            <FormLabel htmlFor="phone">
+                                Phone
+                            </FormLabel>
+                            <FormInput
+                                id="phone"
+                                type="phone"
+                                name="phone"
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <ValidationError
+                                prefix="phone"
+                                field="phone"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="address">
+                                Address
+                            </FormLabel>
+                            <FormInput
                                 id="address"
                                 type="address"
                                 name="address"
-                                placeholder='111 Pouncy Lane, Pouncy, California'
+                                onChange={(e) => setName(e.target.value)}
                             />
-                        </div>
-                        <div className='city1'>
-                            <label htmlFor="eventstart">
-                                *event start time
-                            </label>
-                            <input
+                            <ValidationError
+                                prefix="Address"
+                                field="address"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="clock">
+                                Start Time
+                            </FormLabel>
+                            <FormInput
                                 id="time"
                                 type="time"
-                                name="date"
+                                name="time"
+                                onChange={(e) => setName(e.target.value)}
                             />
-                        </div>
-                        <div className='city1'>
-                            <label htmlFor="eventstart">
-                                *event date
-                            </label>
-                            <input
+                            <ValidationError
+                                prefix="Address"
+                                field="address"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="option">
+                                Will you need a generator?
+                            </FormLabel>
+                            <SelectForm name="Generator" id='Generator' onChange={(e) => setName(e.target.value)}>
+                                <FormOption value='Generator'>Select Option</FormOption>
+                                <FormOption value='yes'>Yes ($50)</FormOption>
+                                <FormOption value='no'>No</FormOption >
+                            </SelectForm>
+                            <ValidationError
+                                prefix="date"
+                                field="date"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="date">
+                                Date
+                            </FormLabel>
+                            <FormInput
                                 id="date"
                                 type="date"
                                 name="date"
+                                onChange={(e) => setDate(e.target.value)}
                             />
-                        </div>
-                         <div className='bouncer'>
-                            <label htmlFor="bouncer">
-                                *length of rental
-                            </label>
-                            <select name="bouncetype" id="bouncetype">
-                                <option value="cass">4-hrs</option>
-                                <option value="mixx">6hrs</option>
-                                <option value="toddler">8hrs</option>
-                            </select>
-                        </div>
-                        <label htmlFor="city">
-                            *what type of surface will the rental be set-up on?(we do not set-up on rock, dirt, or gravel)
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder='Grass, Dirt, Pavement etc. (WE DO NOT SET-UP ON GRAVEL)'
-                        />
-                        <label htmlFor="city">
-                            *how did you hear about us?
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder='Facebook, Instagram, Twitter, TikTok'
-                        />
-                        <label htmlFor="city">
-                            coupon code
-                        </label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            placeholder='LETSGETPOUNCY'
-                        />
+                            <ValidationError
+                                prefix="date"
+                                field="date"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="package">
+                                Package
+                            </FormLabel>
+                            <SelectForm name="Packages" id='Packages' onChange={(e) => setName(e.target.value)}>
+                                <FormOption value='Packages'>Select Bouncer</FormOption>
+                                <FormOption value='toddler'>The Toddler</FormOption>
+                                <FormOption value='classic'>The Classic Castle</FormOption >
+                                <FormOption value='basteel'>The Basteel</FormOption >
+                                <FormOption value='mixpounce'>The Mix & Pounce</FormOption >
 
-                        <ValidationError
-                            prefix="Email"
-                            field="email" 
-                            errors={state.errors}
-                        />
+                            </SelectForm>
+                            <ValidationError
+                                prefix="select"
+                                field="select"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow> <FormLabel htmlFor="package">
+                            Rental Length
+                        </FormLabel>
+                            <SelectForm name="Duration" id='Duration' onChange={(e) => setName(e.target.value)}>
+                                <FormOption value='none'>Select Rental Length</FormOption>
+                                <FormOption value='4hrs'>4 HOURS</FormOption>
+                                <FormOption value='6hrs'>6 HOURS</FormOption >
+                                <FormOption value='8hrs'>8 HOURS</FormOption >
 
 
-                        <ValidationError
-                            prefix="message"
-                            field="message"
-                            errors={state.errors}
-                        />
-                        <button className='formb' type="submit" disabled={state.submitting}>
-                            SUBMIT
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </section>
+                            </SelectForm>
+                        </LabelRow>
+                        
+                        <FormButton type="submit" disabled={!name && !date}>
+                            Submit
+                        </FormButton>
+                    </FormBox>
+                </FormCol>
+            </form>
+
+        </FormMaster>
+
+
     );
 }
 function App() {
