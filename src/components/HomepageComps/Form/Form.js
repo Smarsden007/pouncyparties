@@ -9,7 +9,6 @@ import {
     LabelRow,
     FormLabel,
     FormInput,
-    FormTextArea,
     SelectForm,
     FormOption
 } from './FormStyles'
