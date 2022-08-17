@@ -149,7 +149,7 @@ function ContactForm() {
                                 <FormOption value='Packages'>Select Bouncer</FormOption>
                                 <FormOption value='toddler'>The Toddler</FormOption>
                                 <FormOption value='classic'>The Classic Castle</FormOption >
-                                <FormOption value='basteel'>The Basteel</FormOption >
+                                {/* <FormOption value='basteel'>The Basteel</FormOption > */}
                                 <FormOption value='mixpounce'>The Mix & Pounce</FormOption >
 
                             </SelectForm>
@@ -170,6 +170,54 @@ function ContactForm() {
 
 
                             </SelectForm>
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="Wheredidyouhere">
+                                Where did you hear about us?
+                            </FormLabel>
+                            <FormInput
+                                id="Wheredidyouhere"
+                                type="Wheredidyouhere"
+                                name="Wheredidyouhere"
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <ValidationError
+                                prefix="Wheredidyouhere"
+                                field="Wheredidyouhere"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="coupon">
+                                Coupon Code
+                            </FormLabel>
+                            <FormInput
+                                id="coupon"
+                                type="coupon"
+                                name="coupon"
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <ValidationError
+                                prefix="coupon"
+                                field="coupon"
+                                errors={state.errors}
+                            />
+                        </LabelRow>
+                        <LabelRow>
+                            <FormLabel htmlFor="insta">
+                                Instagram
+                            </FormLabel>
+                            <FormInput
+                                id="insta"
+                                type="insta"
+                                name="insta"
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <ValidationError
+                                prefix="insta"
+                                field="insta"
+                                errors={state.errors}
+                            />
                         </LabelRow>
                         
                         <FormButton type="submit" disabled={!name && !date}>
