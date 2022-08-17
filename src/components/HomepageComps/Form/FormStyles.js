@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 </style>
 
 export const FormMaster = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: center;
-border-radius: 0.25rem;
+border-radius: 0.25rem; 
 
 `
 export const FormCol = styled.div`
@@ -33,10 +35,10 @@ export const FormButton = styled.button`
 width: 14vw;
 height: 4vh;
 border: none;
-background-color: #C84C09;
+background-color: #333333;
 color: white;
 font-size: 1.5rem;
-font-family: 'Space Mono', monospace;
+font-family: 'Amatic';
 margin: 1rem;
 &:hover{
 background-color: white;
@@ -57,8 +59,10 @@ padding: 1rem;
 export const FormLabel = styled.label`
 padding-right: .75rem;
 font-size: 1.5rem;
-font-family: 'Space Mono', monospace;
+font-family: 'Poppins', monospace;
 outline: #333333;
+word-wrap: break-word;
+width: 15vw;
 @media screen and (max-width: 768px) {
 	font-size: 1rem;
 	}
@@ -68,7 +72,7 @@ width: 20vw;
 height: 4vh;
 font-size: 1.5rem;
 border: none;
-outline-color: #C84C09;
+outline-color: #E6BEAE;
 padding: .55rem;
 @media screen and (max-width: 768px) {
 	height: 2vh;
@@ -79,14 +83,14 @@ export const FormTextArea = styled.textarea`
 width: 20vw;
 height: 10vh;
 padding: .55rem;
-outline-color: #C84C09;
+outline-color: #E6BEAE;
 @media screen and (max-width: 768px) {
 	height: 5vh;
 
 }
 `
 export const SelectForm = styled.select`
-outline-color: #C84C09;
+outline-color: #E6BEAE;
 width: 21.5vw;
 height: 5vh;
 @media screen and (max-width: 768px) {
